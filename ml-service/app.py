@@ -15,8 +15,19 @@ except:
 #  route that is getting data from the webscrapers
 @app.route("/scrape", methods=["GET"])
 def scrape_data():
-    df = run_all()
-    return jsonify({"rows": len(df), "columns": list(df.columns)})
+    """Run all scrapers and return summary"""
+    try:
+        results = run_all()
+        return jsonify({
+            "status": "success",
+            "data": results
+        })
+    except Exception as e:
+        return jsonify({
+            "status": "error",
+            "message": str(e)
+        }), 500
+
 
 @app.route("/predict", methods=["POST"])
 def predict():
