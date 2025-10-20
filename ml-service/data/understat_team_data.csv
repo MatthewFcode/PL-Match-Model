@@ -1,0 +1,761 @@
+team,opponent,date,goals_for,goals_against,xG_for,xG_against,result
+Aston Villa,West Ham,2024-08-17 16:30:00,2.0,1.0,2.6703,2.8047,w
+Aston Villa,Arsenal,2024-08-24 16:30:00,0.0,2.0,1.31664,1.41399,l
+Aston Villa,Leicester,2024-08-31 14:00:00,2.0,1.0,2.16385,0.774741,w
+Aston Villa,Everton,2024-09-14 16:30:00,3.0,2.0,3.15876,0.852158,w
+Aston Villa,Wolverhampton Wanderers,2024-09-21 14:00:00,3.0,1.0,2.37351,0.520117,w
+Aston Villa,Ipswich,2024-09-29 13:00:00,2.0,2.0,1.14494,1.84608,d
+Aston Villa,Manchester United,2024-10-06 13:00:00,0.0,0.0,0.532809,0.448537,d
+Aston Villa,Fulham,2024-10-19 14:00:00,3.0,1.0,1.43595,2.63074,w
+Aston Villa,Bournemouth,2024-10-26 14:00:00,1.0,1.0,1.974,0.328651,d
+Aston Villa,Tottenham,2024-11-03 14:00:00,1.0,4.0,2.48749,2.09751,l
+Aston Villa,Liverpool,2024-11-09 20:00:00,0.0,2.0,1.66337,2.68196,l
+Aston Villa,Crystal Palace,2024-11-23 15:00:00,2.0,2.0,3.04455,1.61437,d
+Aston Villa,Chelsea,2024-12-01 13:30:00,0.0,3.0,0.875443,1.94939,l
+Aston Villa,Brentford,2024-12-04 20:15:00,3.0,1.0,3.21673,1.13266,w
+Aston Villa,Southampton,2024-12-07 15:00:00,1.0,0.0,2.51338,0.385832,w
+Aston Villa,Nottingham Forest,2024-12-14 17:30:00,1.0,2.0,0.389423,2.2861,l
+Aston Villa,Manchester City,2024-12-21 12:30:00,2.0,1.0,2.05988,1.09627,w
+Aston Villa,Newcastle United,2024-12-26 15:00:00,0.0,3.0,0.225522,2.82867,l
+Aston Villa,Brighton,2024-12-30 19:45:00,2.0,2.0,1.87997,0.938042,d
+Aston Villa,Leicester,2025-01-04 15:00:00,2.0,1.0,2.3456,0.81548,w
+Aston Villa,Everton,2025-01-15 19:30:00,1.0,0.0,1.28522,1.23126,w
+Aston Villa,Arsenal,2025-01-18 17:30:00,2.0,2.0,1.20602,1.64458,d
+Aston Villa,West Ham,2025-01-26 16:30:00,1.0,1.0,0.907851,1.67886,d
+Aston Villa,Wolverhampton Wanderers,2025-02-01 17:30:00,0.0,2.0,0.742809,2.00146,l
+Aston Villa,Ipswich,2025-02-15 15:00:00,1.0,1.0,2.89841,0.332864,d
+Aston Villa,Liverpool,2025-02-19 15:00:00,2.0,2.0,1.02269,2.04279,d
+Aston Villa,Chelsea,2025-02-22 17:30:00,2.0,1.0,2.69413,2.17418,w
+Aston Villa,Crystal Palace,2025-02-25 19:30:00,1.0,4.0,0.667217,4.02522,l
+Aston Villa,Brentford,2025-03-08 17:30:00,1.0,0.0,1.29638,0.637743,w
+Aston Villa,Brighton,2025-04-02 19:45:00,3.0,0.0,1.20715,0.558009,w
+Aston Villa,Nottingham Forest,2025-04-05 16:30:00,2.0,1.0,2.63349,0.96769,w
+Aston Villa,Southampton,2025-04-12 14:00:00,3.0,0.0,2.99927,0.412256,w
+Aston Villa,Newcastle United,2025-04-19 16:30:00,4.0,1.0,3.05371,1.27176,w
+Aston Villa,Manchester City,2025-04-22 19:00:00,1.0,2.0,1.85906,1.36232,l
+Aston Villa,Fulham,2025-05-03 11:30:00,1.0,0.0,1.29013,0.702787,w
+Aston Villa,Bournemouth,2025-05-10 16:30:00,1.0,0.0,1.12376,1.02272,w
+Aston Villa,Tottenham,2025-05-16 18:30:00,2.0,0.0,1.69061,0.523016,w
+Aston Villa,Manchester United,2025-05-25 15:00:00,0.0,2.0,0.335222,2.96259,l
+Everton,Brighton,2024-08-17 14:00:00,0.0,3.0,0.405325,1.79083,l
+Everton,Tottenham,2024-08-24 14:00:00,0.0,4.0,0.648869,2.61143,l
+Everton,Bournemouth,2024-08-31 14:00:00,2.0,3.0,2.55629,2.95688,l
+Everton,Aston Villa,2024-09-14 16:30:00,2.0,3.0,0.852158,3.15876,l
+Everton,Leicester,2024-09-21 14:00:00,1.0,1.0,1.82377,1.33793,d
+Everton,Crystal Palace,2024-09-28 14:00:00,2.0,1.0,1.10959,1.12358,w
+Everton,Newcastle United,2024-10-05 16:30:00,0.0,0.0,0.692214,1.79048,d
+Everton,Ipswich,2024-10-19 14:00:00,2.0,0.0,1.60804,1.174,w
+Everton,Fulham,2024-10-26 16:30:00,1.0,1.0,0.884845,1.49531,d
+Everton,Southampton,2024-11-02 15:00:00,0.0,1.0,1.78581,0.540345,l
+Everton,West Ham,2024-11-09 15:00:00,0.0,0.0,0.865983,1.1237,d
+Everton,Brentford,2024-11-23 15:00:00,0.0,0.0,1.5951,1.34314,d
+Everton,Manchester United,2024-12-01 13:30:00,0.0,4.0,0.766749,1.76161,l
+Everton,Wolverhampton Wanderers,2024-12-04 19:30:00,4.0,0.0,1.49904,0.847724,w
+Everton,Arsenal,2024-12-14 15:00:00,0.0,0.0,0.132166,1.30865,d
+Everton,Chelsea,2024-12-22 14:00:00,0.0,0.0,1.07081,1.51591,d
+Everton,Manchester City,2024-12-26 12:30:00,1.0,1.0,0.653289,2.51965,d
+Everton,Nottingham Forest,2024-12-29 15:00:00,0.0,2.0,0.615191,2.02753,l
+Everton,Bournemouth,2025-01-04 15:00:00,0.0,1.0,0.561015,2.61852,l
+Everton,Aston Villa,2025-01-15 19:30:00,0.0,1.0,1.23126,1.28522,l
+Everton,Tottenham,2025-01-19 14:00:00,3.0,2.0,2.56089,1.35719,w
+Everton,Brighton,2025-01-25 15:00:00,1.0,0.0,0.870883,0.64378,w
+Everton,Leicester,2025-02-01 15:00:00,4.0,0.0,3.11261,0.447136,w
+Everton,Liverpool,2025-02-12 19:30:00,2.0,2.0,0.910523,0.929103,d
+Everton,Crystal Palace,2025-02-15 17:30:00,2.0,1.0,1.01565,2.30646,w
+Everton,Manchester United,2025-02-22 12:30:00,2.0,2.0,2.10444,0.645685,d
+Everton,Brentford,2025-02-26 19:30:00,1.0,1.0,1.44955,1.34009,d
+Everton,Wolverhampton Wanderers,2025-03-08 20:00:00,1.0,1.0,1.3672,0.812432,d
+Everton,West Ham,2025-03-15 15:00:00,1.0,1.0,1.189,0.516029,d
+Everton,Liverpool,2025-04-02 20:00:00,0.0,1.0,0.823136,1.29718,l
+Everton,Arsenal,2025-04-05 11:30:00,1.0,1.0,1.22875,1.4031,d
+Everton,Nottingham Forest,2025-04-12 14:00:00,1.0,0.0,1.26036,0.423949,w
+Everton,Manchester City,2025-04-19 14:00:00,0.0,2.0,0.81683,1.87989,l
+Everton,Chelsea,2025-04-26 11:30:00,0.0,1.0,0.916838,0.768313,l
+Everton,Ipswich,2025-05-03 14:00:00,2.0,2.0,0.808481,1.14351,d
+Everton,Fulham,2025-05-10 14:00:00,3.0,1.0,1.32604,1.20869,w
+Everton,Southampton,2025-05-18 11:00:00,2.0,0.0,2.67793,1.05025,w
+Everton,Newcastle United,2025-05-25 15:00:00,1.0,0.0,1.07279,1.1591,w
+Bournemouth,Nottingham Forest,2024-08-17 14:00:00,1.0,1.0,1.90915,1.24405,d
+Bournemouth,Newcastle United,2024-08-25 13:00:00,1.0,1.0,2.53513,1.89287,d
+Bournemouth,Everton,2024-08-31 14:00:00,3.0,2.0,2.95688,2.55629,w
+Bournemouth,Chelsea,2024-09-14 19:00:00,0.0,1.0,1.53731,0.932726,l
+Bournemouth,Liverpool,2024-09-21 14:00:00,0.0,3.0,1.46979,2.43731,l
+Bournemouth,Southampton,2024-09-30 19:00:00,3.0,1.0,1.44215,0.696068,w
+Bournemouth,Leicester,2024-10-05 14:00:00,0.0,1.0,1.94963,0.912063,l
+Bournemouth,Arsenal,2024-10-19 16:30:00,2.0,0.0,2.18419,0.740758,w
+Bournemouth,Aston Villa,2024-10-26 14:00:00,1.0,1.0,0.328651,1.974,d
+Bournemouth,Manchester City,2024-11-02 15:00:00,2.0,1.0,2.4493,2.3527,w
+Bournemouth,Brentford,2024-11-09 15:00:00,2.0,3.0,2.49234,1.56474,l
+Bournemouth,Brighton,2024-11-23 15:00:00,1.0,2.0,1.91157,1.23059,l
+Bournemouth,Wolverhampton Wanderers,2024-11-30 15:00:00,4.0,2.0,3.07901,0.866034,w
+Bournemouth,Tottenham,2024-12-05 20:15:00,1.0,0.0,3.27716,0.623934,w
+Bournemouth,Ipswich,2024-12-08 14:00:00,2.0,1.0,3.49127,1.5668,w
+Bournemouth,West Ham,2024-12-16 20:00:00,1.0,1.0,2.04842,1.81827,d
+Bournemouth,Manchester United,2024-12-22 14:00:00,3.0,0.0,1.82831,2.28533,w
+Bournemouth,Crystal Palace,2024-12-26 15:00:00,0.0,0.0,1.20189,0.500066,d
+Bournemouth,Fulham,2024-12-29 15:00:00,2.0,2.0,1.70692,0.961566,d
+Bournemouth,Everton,2025-01-04 15:00:00,1.0,0.0,2.61852,0.561015,w
+Bournemouth,Chelsea,2025-01-14 19:30:00,2.0,2.0,1.14845,2.53808,d
+Bournemouth,Newcastle United,2025-01-18 12:30:00,4.0,1.0,2.70174,0.837801,w
+Bournemouth,Nottingham Forest,2025-01-25 15:00:00,5.0,0.0,2.8254,0.996166,w
+Bournemouth,Liverpool,2025-02-01 15:00:00,0.0,2.0,1.65273,2.7219,l
+Bournemouth,Southampton,2025-02-15 15:00:00,3.0,1.0,2.08722,0.974418,w
+Bournemouth,Wolverhampton Wanderers,2025-02-22 15:00:00,0.0,1.0,0.629691,2.10124,l
+Bournemouth,Brighton,2025-02-25 19:30:00,1.0,2.0,1.70169,2.57927,l
+Bournemouth,Tottenham,2025-03-09 14:00:00,2.0,2.0,2.22536,1.35053,d
+Bournemouth,Brentford,2025-03-15 17:30:00,1.0,2.0,2.02714,1.60321,l
+Bournemouth,Ipswich,2025-04-02 19:45:00,1.0,2.0,1.99637,1.41263,l
+Bournemouth,West Ham,2025-04-05 14:00:00,2.0,2.0,1.94869,0.907832,d
+Bournemouth,Fulham,2025-04-14 19:00:00,1.0,0.0,1.8577,1.07203,w
+Bournemouth,Crystal Palace,2025-04-19 14:00:00,0.0,0.0,0.664093,0.337818,d
+Bournemouth,Manchester United,2025-04-27 13:00:00,1.0,1.0,0.60995,1.91039,d
+Bournemouth,Arsenal,2025-05-03 16:30:00,2.0,1.0,1.41783,2.05484,w
+Bournemouth,Aston Villa,2025-05-10 16:30:00,0.0,1.0,1.02272,1.12376,l
+Bournemouth,Manchester City,2025-05-20 19:00:00,1.0,3.0,0.962014,1.59779,l
+Bournemouth,Leicester,2025-05-25 15:00:00,2.0,0.0,2.72449,0.156702,w
+Southampton,Newcastle United,2024-08-17 14:00:00,0.0,1.0,1.95483,0.433489,l
+Southampton,Nottingham Forest,2024-08-24 14:00:00,0.0,1.0,0.214952,2.86475,l
+Southampton,Brentford,2024-08-31 14:00:00,1.0,3.0,1.64713,3.86281,l
+Southampton,Manchester United,2024-09-14 11:30:00,0.0,3.0,1.35593,3.02693,l
+Southampton,Ipswich,2024-09-21 14:00:00,1.0,1.0,2.89813,1.645,d
+Southampton,Bournemouth,2024-09-30 19:00:00,1.0,3.0,0.696068,1.44215,l
+Southampton,Arsenal,2024-10-05 14:00:00,1.0,3.0,1.27313,3.25165,l
+Southampton,Leicester,2024-10-19 14:00:00,2.0,3.0,2.42776,2.83826,l
+Southampton,Manchester City,2024-10-26 14:00:00,0.0,1.0,0.369989,3.16286,l
+Southampton,Everton,2024-11-02 15:00:00,1.0,0.0,0.540345,1.78581,w
+Southampton,Wolverhampton Wanderers,2024-11-09 15:00:00,0.0,2.0,0.792655,0.912781,l
+Southampton,Liverpool,2024-11-24 14:00:00,2.0,3.0,1.53985,3.18835,l
+Southampton,Brighton,2024-11-29 20:00:00,1.0,1.0,0.934969,1.86986,d
+Southampton,Chelsea,2024-12-04 19:30:00,1.0,5.0,1.91014,5.8331,l
+Southampton,Aston Villa,2024-12-07 15:00:00,0.0,1.0,0.385832,2.51338,l
+Southampton,Tottenham,2024-12-15 19:00:00,0.0,5.0,1.27356,3.89322,l
+Southampton,Fulham,2024-12-22 14:00:00,0.0,0.0,0.280031,1.25255,d
+Southampton,West Ham,2024-12-26 15:00:00,0.0,1.0,2.19833,1.90111,l
+Southampton,Crystal Palace,2024-12-29 15:00:00,1.0,2.0,1.21853,3.05417,l
+Southampton,Brentford,2025-01-04 15:00:00,0.0,5.0,0.249614,5.54874,l
+Southampton,Manchester United,2025-01-16 20:00:00,1.0,3.0,1.36705,3.10847,l
+Southampton,Nottingham Forest,2025-01-19 14:00:00,2.0,3.0,1.25922,2.36419,l
+Southampton,Newcastle United,2025-01-25 15:00:00,1.0,3.0,0.825621,3.08319,l
+Southampton,Ipswich,2025-02-01 15:00:00,2.0,1.0,1.17566,1.94845,w
+Southampton,Bournemouth,2025-02-15 15:00:00,1.0,3.0,0.974418,2.08722,l
+Southampton,Brighton,2025-02-22 15:00:00,0.0,4.0,0.154147,5.12018,l
+Southampton,Chelsea,2025-02-25 20:15:00,0.0,4.0,0.845039,2.98234,l
+Southampton,Liverpool,2025-03-08 15:00:00,1.0,3.0,0.511566,4.98996,l
+Southampton,Wolverhampton Wanderers,2025-03-15 15:00:00,1.0,2.0,1.2821,0.540718,l
+Southampton,Crystal Palace,2025-04-02 19:45:00,1.0,1.0,0.687304,0.93776,d
+Southampton,Tottenham,2025-04-06 13:00:00,1.0,3.0,0.780439,2.648,l
+Southampton,Aston Villa,2025-04-12 14:00:00,0.0,3.0,0.412256,2.99927,l
+Southampton,West Ham,2025-04-19 14:00:00,1.0,1.0,0.922877,0.98423,d
+Southampton,Fulham,2025-04-26 14:00:00,1.0,2.0,0.935581,1.9956,l
+Southampton,Leicester,2025-05-03 14:00:00,0.0,2.0,0.550774,1.60739,l
+Southampton,Manchester City,2025-05-10 14:00:00,0.0,0.0,0.136995,1.58463,d
+Southampton,Everton,2025-05-18 11:00:00,0.0,2.0,1.05025,2.67793,l
+Southampton,Arsenal,2025-05-25 15:00:00,1.0,2.0,0.598144,2.40711,l
+Leicester,Tottenham,2024-08-19 19:00:00,1.0,1.0,1.02614,1.40775,d
+Leicester,Fulham,2024-08-24 14:00:00,1.0,2.0,0.857005,1.96218,l
+Leicester,Aston Villa,2024-08-31 14:00:00,1.0,2.0,0.774741,2.16385,l
+Leicester,Crystal Palace,2024-09-14 14:00:00,2.0,2.0,1.65187,2.88716,d
+Leicester,Everton,2024-09-21 14:00:00,1.0,1.0,1.33793,1.82377,d
+Leicester,Arsenal,2024-09-28 14:00:00,2.0,4.0,0.337909,6.05305,l
+Leicester,Bournemouth,2024-10-05 14:00:00,1.0,0.0,0.912063,1.94963,w
+Leicester,Southampton,2024-10-19 14:00:00,3.0,2.0,2.83826,2.42776,w
+Leicester,Nottingham Forest,2024-10-25 19:00:00,1.0,3.0,0.832415,2.54488,l
+Leicester,Ipswich,2024-11-02 15:00:00,1.0,1.0,2.33858,1.33617,d
+Leicester,Manchester United,2024-11-10 14:00:00,0.0,3.0,0.417295,1.2369,l
+Leicester,Chelsea,2024-11-23 12:30:00,1.0,2.0,0.967987,2.81658,l
+Leicester,Brentford,2024-11-30 15:00:00,1.0,4.0,0.907555,2.21885,l
+Leicester,West Ham,2024-12-03 20:15:00,3.0,1.0,2.78061,2.87716,w
+Leicester,Brighton,2024-12-08 14:00:00,2.0,2.0,1.42438,1.12184,d
+Leicester,Newcastle United,2024-12-14 15:00:00,0.0,4.0,0.186759,3.95461,l
+Leicester,Wolverhampton Wanderers,2024-12-22 14:00:00,0.0,3.0,0.78868,1.13531,l
+Leicester,Liverpool,2024-12-26 20:00:00,1.0,3.0,0.22097,1.89935,l
+Leicester,Manchester City,2024-12-29 14:30:00,0.0,2.0,1.84208,1.58002,l
+Leicester,Aston Villa,2025-01-04 15:00:00,1.0,2.0,0.81548,2.3456,l
+Leicester,Crystal Palace,2025-01-15 19:30:00,0.0,2.0,2.09904,2.2647,l
+Leicester,Fulham,2025-01-18 15:00:00,0.0,2.0,0.676934,2.36823,l
+Leicester,Tottenham,2025-01-26 14:00:00,2.0,1.0,1.40469,1.27483,w
+Leicester,Everton,2025-02-01 15:00:00,0.0,4.0,0.447136,3.11261,l
+Leicester,Arsenal,2025-02-15 12:30:00,0.0,2.0,0.233209,1.75,l
+Leicester,Brentford,2025-02-21 20:00:00,0.0,4.0,0.727901,2.03465,l
+Leicester,West Ham,2025-02-27 20:00:00,0.0,2.0,0.289578,1.70437,l
+Leicester,Chelsea,2025-03-09 14:00:00,0.0,1.0,0.108487,1.76844,l
+Leicester,Manchester United,2025-03-16 19:00:00,0.0,3.0,1.30455,1.13892,l
+Leicester,Manchester City,2025-04-02 19:45:00,0.0,2.0,0.104741,2.07165,l
+Leicester,Newcastle United,2025-04-07 19:00:00,0.0,3.0,0.354575,3.44111,l
+Leicester,Brighton,2025-04-12 14:00:00,2.0,2.0,1.98444,3.6978,d
+Leicester,Liverpool,2025-04-20 15:30:00,0.0,1.0,0.232205,4.52706,l
+Leicester,Wolverhampton Wanderers,2025-04-26 14:00:00,0.0,3.0,1.04978,2.57666,l
+Leicester,Southampton,2025-05-03 14:00:00,2.0,0.0,1.60739,0.550774,w
+Leicester,Nottingham Forest,2025-05-11 13:15:00,2.0,2.0,1.22949,1.76909,d
+Leicester,Ipswich,2025-05-18 14:00:00,2.0,0.0,0.788544,1.36957,w
+Leicester,Bournemouth,2025-05-25 15:00:00,0.0,2.0,0.156702,2.72449,l
+Crystal Palace,Brentford,2024-08-18 13:00:00,1.0,2.0,1.14757,1.38064,l
+Crystal Palace,West Ham,2024-08-24 14:00:00,0.0,2.0,1.3761,1.53421,l
+Crystal Palace,Chelsea,2024-09-01 12:30:00,1.0,1.0,0.459708,2.97743,d
+Crystal Palace,Leicester,2024-09-14 14:00:00,2.0,2.0,2.88716,1.65187,d
+Crystal Palace,Manchester United,2024-09-21 16:30:00,0.0,0.0,1.66928,2.35056,d
+Crystal Palace,Everton,2024-09-28 14:00:00,1.0,2.0,1.12358,1.10959,l
+Crystal Palace,Liverpool,2024-10-05 11:30:00,0.0,1.0,0.609481,2.07332,l
+Crystal Palace,Nottingham Forest,2024-10-21 19:00:00,0.0,1.0,0.835001,1.88573,l
+Crystal Palace,Tottenham,2024-10-27 14:00:00,1.0,0.0,0.978611,1.0192,w
+Crystal Palace,Wolverhampton Wanderers,2024-11-02 17:30:00,2.0,2.0,2.64849,1.65018,d
+Crystal Palace,Fulham,2024-11-09 15:00:00,0.0,2.0,1.96037,2.25331,l
+Crystal Palace,Aston Villa,2024-11-23 15:00:00,2.0,2.0,1.61437,3.04455,d
+Crystal Palace,Newcastle United,2024-11-30 15:00:00,1.0,1.0,2.29595,0.020989,d
+Crystal Palace,Ipswich,2024-12-03 19:30:00,1.0,0.0,1.65422,0.471708,w
+Crystal Palace,Manchester City,2024-12-07 15:00:00,2.0,2.0,1.21476,1.5846,d
+Crystal Palace,Brighton,2024-12-15 14:00:00,3.0,1.0,3.00618,1.32323,w
+Crystal Palace,Arsenal,2024-12-21 17:30:00,1.0,5.0,1.6052,3.05434,l
+Crystal Palace,Bournemouth,2024-12-26 15:00:00,0.0,0.0,0.500066,1.20189,d
+Crystal Palace,Southampton,2024-12-29 15:00:00,2.0,1.0,3.05417,1.21853,w
+Crystal Palace,Chelsea,2025-01-04 15:00:00,1.0,1.0,1.2766,1.51541,d
+Crystal Palace,Leicester,2025-01-15 19:30:00,2.0,0.0,2.2647,2.09904,w
+Crystal Palace,West Ham,2025-01-18 15:00:00,2.0,0.0,1.62561,0.221062,w
+Crystal Palace,Brentford,2025-01-26 14:00:00,1.0,2.0,1.23177,1.92037,l
+Crystal Palace,Manchester United,2025-02-02 14:00:00,2.0,0.0,2.44633,1.50706,w
+Crystal Palace,Everton,2025-02-15 17:30:00,1.0,2.0,2.30646,1.01565,l
+Crystal Palace,Fulham,2025-02-22 15:00:00,2.0,0.0,1.46203,0.23426,w
+Crystal Palace,Aston Villa,2025-02-25 19:30:00,4.0,1.0,4.02522,0.667217,w
+Crystal Palace,Ipswich,2025-03-08 15:00:00,1.0,0.0,3.13879,1.63282,w
+Crystal Palace,Southampton,2025-04-02 19:45:00,1.0,1.0,0.93776,0.687304,d
+Crystal Palace,Brighton,2025-04-05 14:00:00,2.0,1.0,0.443965,1.27226,w
+Crystal Palace,Manchester City,2025-04-12 11:30:00,2.0,5.0,1.33808,4.59724,l
+Crystal Palace,Newcastle United,2025-04-16 18:30:00,0.0,5.0,2.37548,2.32947,l
+Crystal Palace,Bournemouth,2025-04-19 14:00:00,0.0,0.0,0.337818,0.664093,d
+Crystal Palace,Arsenal,2025-04-23 19:00:00,2.0,2.0,2.50515,1.92149,d
+Crystal Palace,Nottingham Forest,2025-05-05 19:00:00,1.0,1.0,2.34037,0.63684,d
+Crystal Palace,Tottenham,2025-05-11 13:15:00,2.0,0.0,3.98546,0.806792,w
+Crystal Palace,Wolverhampton Wanderers,2025-05-20 19:00:00,4.0,2.0,1.68451,1.42886,w
+Crystal Palace,Liverpool,2025-05-25 15:00:00,1.0,1.0,1.4144,1.92122,d
+Chelsea,Manchester City,2024-08-18 15:30:00,0.0,2.0,1.06123,1.18038,l
+Chelsea,Wolverhampton Wanderers,2024-08-25 13:00:00,6.0,2.0,2.02935,2.4181,w
+Chelsea,Crystal Palace,2024-09-01 12:30:00,1.0,1.0,2.97743,0.459708,d
+Chelsea,Bournemouth,2024-09-14 19:00:00,1.0,0.0,0.932726,1.53731,w
+Chelsea,West Ham,2024-09-21 11:30:00,3.0,0.0,2.39727,0.758267,w
+Chelsea,Brighton,2024-09-28 14:00:00,4.0,2.0,3.65839,1.20712,w
+Chelsea,Nottingham Forest,2024-10-06 13:00:00,1.0,1.0,2.27752,1.66654,d
+Chelsea,Liverpool,2024-10-20 15:30:00,1.0,2.0,1.33904,2.22517,l
+Chelsea,Newcastle United,2024-10-27 14:00:00,2.0,1.0,1.61794,1.74225,w
+Chelsea,Manchester United,2024-11-03 16:30:00,1.0,1.0,1.21071,2.1605,d
+Chelsea,Arsenal,2024-11-10 16:30:00,1.0,1.0,1.24067,1.9605,d
+Chelsea,Leicester,2024-11-23 12:30:00,2.0,1.0,2.81658,0.967987,w
+Chelsea,Aston Villa,2024-12-01 13:30:00,3.0,0.0,1.94939,0.875443,w
+Chelsea,Southampton,2024-12-04 19:30:00,5.0,1.0,5.8331,1.91014,w
+Chelsea,Tottenham,2024-12-08 16:30:00,4.0,3.0,2.57326,3.25488,w
+Chelsea,Brentford,2024-12-15 19:00:00,2.0,1.0,2.59146,1.65861,w
+Chelsea,Everton,2024-12-22 14:00:00,0.0,0.0,1.51591,1.07081,d
+Chelsea,Fulham,2024-12-26 15:00:00,1.0,2.0,1.55626,1.77929,l
+Chelsea,Ipswich,2024-12-30 19:45:00,0.0,2.0,1.60622,1.50093,l
+Chelsea,Crystal Palace,2025-01-04 15:00:00,1.0,1.0,1.51541,1.2766,d
+Chelsea,Bournemouth,2025-01-14 19:30:00,2.0,2.0,2.53808,1.14845,d
+Chelsea,Wolverhampton Wanderers,2025-01-20 20:00:00,3.0,1.0,3.14882,1.06726,w
+Chelsea,Manchester City,2025-01-25 17:30:00,1.0,3.0,1.49843,2.23213,l
+Chelsea,West Ham,2025-02-03 20:00:00,2.0,1.0,1.39066,1.1868,w
+Chelsea,Brighton,2025-02-14 20:00:00,0.0,3.0,0.649788,2.06892,l
+Chelsea,Aston Villa,2025-02-22 17:30:00,1.0,2.0,2.17418,2.69413,l
+Chelsea,Southampton,2025-02-25 20:15:00,4.0,0.0,2.98234,0.845039,w
+Chelsea,Leicester,2025-03-09 14:00:00,1.0,0.0,1.76844,0.108487,w
+Chelsea,Arsenal,2025-03-16 13:30:00,0.0,1.0,0.286036,0.695725,l
+Chelsea,Tottenham,2025-04-03 19:00:00,1.0,0.0,1.30443,1.40274,w
+Chelsea,Brentford,2025-04-06 13:00:00,0.0,0.0,1.47829,1.36123,d
+Chelsea,Ipswich,2025-04-13 13:00:00,2.0,2.0,2.90758,1.60301,d
+Chelsea,Fulham,2025-04-20 13:00:00,2.0,1.0,0.75172,0.306122,w
+Chelsea,Everton,2025-04-26 11:30:00,1.0,0.0,0.768313,0.916838,w
+Chelsea,Liverpool,2025-05-04 15:30:00,3.0,1.0,3.51944,1.4267,w
+Chelsea,Newcastle United,2025-05-11 11:00:00,0.0,2.0,0.646426,1.6703,l
+Chelsea,Manchester United,2025-05-16 19:15:00,1.0,0.0,1.29571,0.337632,w
+Chelsea,Nottingham Forest,2025-05-25 15:00:00,1.0,0.0,1.30874,1.58014,w
+West Ham,Aston Villa,2024-08-17 16:30:00,1.0,2.0,2.8047,2.6703,l
+West Ham,Crystal Palace,2024-08-24 14:00:00,2.0,0.0,1.53421,1.3761,w
+West Ham,Manchester City,2024-08-31 16:30:00,1.0,3.0,0.947201,3.19297,l
+West Ham,Fulham,2024-09-14 14:00:00,1.0,1.0,0.682719,2.88601,d
+West Ham,Chelsea,2024-09-21 11:30:00,0.0,3.0,0.758267,2.39727,l
+West Ham,Brentford,2024-09-28 14:00:00,1.0,1.0,0.878617,0.370222,d
+West Ham,Ipswich,2024-10-05 14:00:00,4.0,1.0,4.39402,1.18463,w
+West Ham,Tottenham,2024-10-19 11:30:00,1.0,4.0,0.858803,1.44052,l
+West Ham,Manchester United,2024-10-27 14:00:00,2.0,1.0,2.99312,2.62598,w
+West Ham,Nottingham Forest,2024-11-02 15:00:00,0.0,3.0,0.132317,2.35011,l
+West Ham,Everton,2024-11-09 15:00:00,0.0,0.0,1.1237,0.865983,d
+West Ham,Newcastle United,2024-11-25 20:00:00,2.0,0.0,0.942824,1.49781,w
+West Ham,Arsenal,2024-11-30 17:30:00,2.0,5.0,1.23539,3.99935,l
+West Ham,Leicester,2024-12-03 20:15:00,1.0,3.0,2.87716,2.78061,l
+West Ham,Wolverhampton Wanderers,2024-12-09 20:00:00,2.0,1.0,1.19808,1.47567,w
+West Ham,Bournemouth,2024-12-16 20:00:00,1.0,1.0,1.81827,2.04842,d
+West Ham,Brighton,2024-12-21 15:00:00,1.0,1.0,1.22937,1.34379,d
+West Ham,Southampton,2024-12-26 15:00:00,1.0,0.0,1.90111,2.19833,w
+West Ham,Liverpool,2024-12-29 17:15:00,0.0,5.0,0.518279,3.29868,l
+West Ham,Manchester City,2025-01-04 15:00:00,1.0,4.0,1.53286,1.97986,l
+West Ham,Fulham,2025-01-14 19:30:00,3.0,2.0,0.937322,2.83581,w
+West Ham,Crystal Palace,2025-01-18 15:00:00,0.0,2.0,0.221062,1.62561,l
+West Ham,Aston Villa,2025-01-26 16:30:00,1.0,1.0,1.67886,0.907851,d
+West Ham,Chelsea,2025-02-03 20:00:00,1.0,2.0,1.1868,1.39066,l
+West Ham,Brentford,2025-02-15 15:00:00,0.0,1.0,0.673466,1.96499,l
+West Ham,Arsenal,2025-02-22 15:00:00,1.0,0.0,1.02684,1.37264,w
+West Ham,Leicester,2025-02-27 20:00:00,2.0,0.0,1.70437,0.289578,w
+West Ham,Newcastle United,2025-03-10 20:00:00,0.0,1.0,0.823986,1.62976,l
+West Ham,Everton,2025-03-15 15:00:00,1.0,1.0,0.516029,1.189,d
+West Ham,Wolverhampton Wanderers,2025-04-01 19:45:00,0.0,1.0,1.73057,1.10359,l
+West Ham,Bournemouth,2025-04-05 14:00:00,2.0,2.0,0.907832,1.94869,d
+West Ham,Liverpool,2025-04-13 13:00:00,1.0,2.0,1.46598,1.42902,l
+West Ham,Southampton,2025-04-19 14:00:00,1.0,1.0,0.98423,0.922877,d
+West Ham,Brighton,2025-04-26 14:00:00,2.0,3.0,1.24134,1.29433,l
+West Ham,Tottenham,2025-05-04 13:00:00,1.0,1.0,1.15166,0.847022,d
+West Ham,Manchester United,2025-05-11 13:15:00,2.0,0.0,2.15985,2.31287,w
+West Ham,Nottingham Forest,2025-05-18 13:15:00,1.0,2.0,0.850457,2.14756,l
+West Ham,Ipswich,2025-05-25 15:00:00,3.0,1.0,0.967379,0.893095,w
+Tottenham,Leicester,2024-08-19 19:00:00,1.0,1.0,1.40775,1.02614,d
+Tottenham,Everton,2024-08-24 14:00:00,4.0,0.0,2.61143,0.648869,w
+Tottenham,Newcastle United,2024-09-01 12:30:00,1.0,2.0,1.63304,1.58694,l
+Tottenham,Arsenal,2024-09-15 13:00:00,0.0,1.0,0.792595,1.1209,l
+Tottenham,Brentford,2024-09-21 14:00:00,3.0,1.0,3.89481,0.893565,w
+Tottenham,Manchester United,2024-09-29 15:30:00,3.0,0.0,5.4072,0.600721,w
+Tottenham,Brighton,2024-10-06 15:30:00,2.0,3.0,1.09279,1.97217,l
+Tottenham,West Ham,2024-10-19 11:30:00,4.0,1.0,1.44052,0.858803,w
+Tottenham,Crystal Palace,2024-10-27 14:00:00,0.0,1.0,1.0192,0.978611,l
+Tottenham,Aston Villa,2024-11-03 14:00:00,4.0,1.0,2.09751,2.48749,w
+Tottenham,Ipswich,2024-11-10 14:00:00,1.0,2.0,1.75088,2.18392,l
+Tottenham,Manchester City,2024-11-23 17:30:00,4.0,0.0,3.30449,2.15899,w
+Tottenham,Fulham,2024-12-01 13:30:00,1.0,1.0,1.01086,1.57274,d
+Tottenham,Bournemouth,2024-12-05 20:15:00,0.0,1.0,0.623934,3.27716,l
+Tottenham,Chelsea,2024-12-08 16:30:00,3.0,4.0,3.25488,2.57326,l
+Tottenham,Southampton,2024-12-15 19:00:00,5.0,0.0,3.89322,1.27356,w
+Tottenham,Liverpool,2024-12-22 16:30:00,3.0,6.0,1.20245,5.20214,l
+Tottenham,Nottingham Forest,2024-12-26 15:00:00,0.0,1.0,1.05758,1.30018,l
+Tottenham,Wolverhampton Wanderers,2024-12-29 15:00:00,2.0,2.0,2.28433,0.640697,d
+Tottenham,Newcastle United,2025-01-04 12:30:00,1.0,2.0,1.00333,2.42963,l
+Tottenham,Arsenal,2025-01-15 20:00:00,1.0,2.0,0.777071,2.25501,l
+Tottenham,Everton,2025-01-19 14:00:00,2.0,3.0,1.35719,2.56089,l
+Tottenham,Leicester,2025-01-26 14:00:00,1.0,2.0,1.27483,1.40469,l
+Tottenham,Brentford,2025-02-02 14:00:00,2.0,0.0,0.945355,1.66475,w
+Tottenham,Manchester United,2025-02-16 16:30:00,1.0,0.0,1.97109,1.42652,w
+Tottenham,Ipswich,2025-02-22 15:00:00,4.0,1.0,1.58741,1.15389,w
+Tottenham,Manchester City,2025-02-26 19:30:00,0.0,1.0,1.28426,2.38641,l
+Tottenham,Bournemouth,2025-03-09 14:00:00,2.0,2.0,1.35053,2.22536,d
+Tottenham,Fulham,2025-03-16 13:30:00,0.0,2.0,1.40865,1.03966,l
+Tottenham,Chelsea,2025-04-03 19:00:00,0.0,1.0,1.40274,1.30443,l
+Tottenham,Southampton,2025-04-06 13:00:00,3.0,1.0,2.648,0.780439,w
+Tottenham,Wolverhampton Wanderers,2025-04-13 13:00:00,2.0,4.0,1.62887,2.22977,l
+Tottenham,Nottingham Forest,2025-04-21 19:00:00,1.0,2.0,2.4024,0.557682,l
+Tottenham,Liverpool,2025-04-27 15:30:00,1.0,5.0,0.512812,2.51104,l
+Tottenham,West Ham,2025-05-04 13:00:00,1.0,1.0,0.847022,1.15166,d
+Tottenham,Crystal Palace,2025-05-11 13:15:00,0.0,2.0,0.806792,3.98546,l
+Tottenham,Aston Villa,2025-05-16 18:30:00,0.0,2.0,0.523016,1.69061,l
+Tottenham,Brighton,2025-05-25 15:00:00,1.0,4.0,1.85265,3.11624,l
+Arsenal,Wolverhampton Wanderers,2024-08-17 14:00:00,2.0,0.0,1.6283,0.575835,w
+Arsenal,Aston Villa,2024-08-24 16:30:00,2.0,0.0,1.41399,1.31664,w
+Arsenal,Brighton,2024-08-31 11:30:00,1.0,1.0,2.41798,1.81748,d
+Arsenal,Tottenham,2024-09-15 13:00:00,1.0,0.0,1.1209,0.792595,w
+Arsenal,Manchester City,2024-09-22 15:30:00,2.0,2.0,1.28411,2.75588,d
+Arsenal,Leicester,2024-09-28 14:00:00,4.0,2.0,6.05305,0.337909,w
+Arsenal,Southampton,2024-10-05 14:00:00,3.0,1.0,3.25165,1.27313,w
+Arsenal,Bournemouth,2024-10-19 16:30:00,0.0,2.0,0.740758,2.18419,l
+Arsenal,Liverpool,2024-10-27 16:30:00,2.0,2.0,1.0883,1.35346,d
+Arsenal,Newcastle United,2024-11-02 12:30:00,0.0,1.0,0.911305,0.859715,l
+Arsenal,Chelsea,2024-11-10 16:30:00,1.0,1.0,1.9605,1.24067,d
+Arsenal,Nottingham Forest,2024-11-23 15:00:00,3.0,0.0,1.66016,0.403136,w
+Arsenal,West Ham,2024-11-30 17:30:00,5.0,2.0,3.99935,1.23539,w
+Arsenal,Manchester United,2024-12-04 20:15:00,2.0,0.0,2.96684,0.256083,w
+Arsenal,Fulham,2024-12-08 14:00:00,1.0,1.0,2.4333,0.150988,d
+Arsenal,Everton,2024-12-14 15:00:00,0.0,0.0,1.30865,0.132166,d
+Arsenal,Crystal Palace,2024-12-21 17:30:00,5.0,1.0,3.05434,1.6052,w
+Arsenal,Ipswich,2024-12-27 20:15:00,1.0,0.0,2.16462,0.0783327,w
+Arsenal,Brentford,2025-01-01 17:30:00,3.0,1.0,1.99848,0.272604,w
+Arsenal,Brighton,2025-01-04 17:30:00,1.0,1.0,1.81142,1.76513,d
+Arsenal,Tottenham,2025-01-15 20:00:00,2.0,1.0,2.25501,0.777071,w
+Arsenal,Aston Villa,2025-01-18 17:30:00,2.0,2.0,1.64458,1.20602,d
+Arsenal,Wolverhampton Wanderers,2025-01-25 15:00:00,1.0,0.0,0.887358,0.514724,w
+Arsenal,Manchester City,2025-02-02 16:30:00,5.0,1.0,1.53202,0.743191,w
+Arsenal,Leicester,2025-02-15 12:30:00,2.0,0.0,1.75,0.233209,w
+Arsenal,West Ham,2025-02-22 15:00:00,0.0,1.0,1.37264,1.02684,l
+Arsenal,Nottingham Forest,2025-02-26 19:30:00,0.0,0.0,1.31766,0.508611,d
+Arsenal,Manchester United,2025-03-09 16:30:00,1.0,1.0,1.82996,1.31107,d
+Arsenal,Chelsea,2025-03-16 13:30:00,1.0,0.0,0.695725,0.286036,w
+Arsenal,Fulham,2025-04-01 19:45:00,2.0,1.0,2.30189,1.44206,w
+Arsenal,Everton,2025-04-05 11:30:00,1.0,1.0,1.4031,1.22875,d
+Arsenal,Brentford,2025-04-12 16:30:00,1.0,1.0,0.767369,0.588583,d
+Arsenal,Ipswich,2025-04-20 13:00:00,4.0,0.0,2.81362,0.192879,w
+Arsenal,Crystal Palace,2025-04-23 19:00:00,2.0,2.0,1.92149,2.50515,d
+Arsenal,Bournemouth,2025-05-03 16:30:00,1.0,2.0,2.05484,1.41783,l
+Arsenal,Liverpool,2025-05-11 15:30:00,2.0,2.0,2.18795,2.74682,d
+Arsenal,Newcastle United,2025-05-18 15:30:00,1.0,0.0,1.15958,2.24634,w
+Arsenal,Southampton,2025-05-25 15:00:00,2.0,1.0,2.40711,0.598144,w
+Newcastle United,Southampton,2024-08-17 14:00:00,1.0,0.0,0.433489,1.95483,w
+Newcastle United,Bournemouth,2024-08-25 13:00:00,1.0,1.0,1.89287,2.53513,d
+Newcastle United,Tottenham,2024-09-01 12:30:00,2.0,1.0,1.58694,1.63304,w
+Newcastle United,Wolverhampton Wanderers,2024-09-15 15:30:00,2.0,1.0,1.48343,1.46969,w
+Newcastle United,Fulham,2024-09-21 14:00:00,1.0,3.0,1.09768,3.21141,l
+Newcastle United,Manchester City,2024-09-28 11:30:00,1.0,1.0,1.34344,1.26516,d
+Newcastle United,Everton,2024-10-05 16:30:00,0.0,0.0,1.79048,0.692214,d
+Newcastle United,Brighton,2024-10-19 14:00:00,0.0,1.0,1.93657,1.6779,l
+Newcastle United,Chelsea,2024-10-27 14:00:00,1.0,2.0,1.74225,1.61794,l
+Newcastle United,Arsenal,2024-11-02 12:30:00,1.0,0.0,0.859715,0.911305,w
+Newcastle United,Nottingham Forest,2024-11-10 14:00:00,3.0,1.0,1.86904,1.17852,w
+Newcastle United,West Ham,2024-11-25 20:00:00,0.0,2.0,1.49781,0.942824,l
+Newcastle United,Crystal Palace,2024-11-30 15:00:00,1.0,1.0,0.020989,2.29595,d
+Newcastle United,Liverpool,2024-12-04 19:30:00,3.0,3.0,1.52057,2.22766,d
+Newcastle United,Brentford,2024-12-07 15:00:00,2.0,4.0,1.95645,1.746,l
+Newcastle United,Leicester,2024-12-14 15:00:00,4.0,0.0,3.95461,0.186759,w
+Newcastle United,Ipswich,2024-12-21 15:00:00,4.0,0.0,3.23386,1.06427,w
+Newcastle United,Aston Villa,2024-12-26 15:00:00,3.0,0.0,2.82867,0.225522,w
+Newcastle United,Manchester United,2024-12-30 20:00:00,2.0,0.0,2.2424,1.00073,w
+Newcastle United,Tottenham,2025-01-04 12:30:00,2.0,1.0,2.42963,1.00333,w
+Newcastle United,Wolverhampton Wanderers,2025-01-15 19:30:00,3.0,0.0,2.13327,1.47433,w
+Newcastle United,Bournemouth,2025-01-18 12:30:00,1.0,4.0,0.837801,2.70174,l
+Newcastle United,Southampton,2025-01-25 15:00:00,3.0,1.0,3.08319,0.825621,w
+Newcastle United,Fulham,2025-02-01 15:00:00,1.0,2.0,1.22716,1.60881,l
+Newcastle United,Manchester City,2025-02-15 15:00:00,0.0,4.0,0.157211,2.12004,l
+Newcastle United,Nottingham Forest,2025-02-23 14:00:00,4.0,3.0,3.45858,2.38603,w
+Newcastle United,Liverpool,2025-02-26 20:15:00,0.0,2.0,0.45882,1.40027,l
+Newcastle United,West Ham,2025-03-10 20:00:00,1.0,0.0,1.62976,0.823986,w
+Newcastle United,Brentford,2025-04-02 19:45:00,2.0,1.0,2.26584,1.53201,w
+Newcastle United,Leicester,2025-04-07 19:00:00,3.0,0.0,3.44111,0.354575,w
+Newcastle United,Manchester United,2025-04-13 15:30:00,4.0,1.0,2.6383,0.786568,w
+Newcastle United,Crystal Palace,2025-04-16 18:30:00,5.0,0.0,2.32947,2.37548,w
+Newcastle United,Aston Villa,2025-04-19 16:30:00,1.0,4.0,1.27176,3.05371,l
+Newcastle United,Ipswich,2025-04-26 14:00:00,3.0,0.0,4.11539,0.127203,w
+Newcastle United,Brighton,2025-05-04 13:00:00,1.0,1.0,1.63777,0.687863,d
+Newcastle United,Chelsea,2025-05-11 11:00:00,2.0,0.0,1.6703,0.646426,w
+Newcastle United,Arsenal,2025-05-18 15:30:00,0.0,1.0,2.24634,1.15958,l
+Newcastle United,Everton,2025-05-25 15:00:00,0.0,1.0,1.1591,1.07279,l
+Liverpool,Ipswich,2024-08-17 11:30:00,2.0,0.0,3.92906,0.342601,w
+Liverpool,Brentford,2024-08-25 15:30:00,2.0,0.0,2.71877,0.457239,w
+Liverpool,Manchester United,2024-09-01 15:00:00,3.0,0.0,2.10397,1.50087,w
+Liverpool,Nottingham Forest,2024-09-14 14:00:00,0.0,1.0,1.17044,0.589532,l
+Liverpool,Bournemouth,2024-09-21 14:00:00,3.0,0.0,2.43731,1.46979,w
+Liverpool,Wolverhampton Wanderers,2024-09-28 16:30:00,2.0,1.0,2.11724,0.748925,w
+Liverpool,Crystal Palace,2024-10-05 11:30:00,1.0,0.0,2.07332,0.609481,w
+Liverpool,Chelsea,2024-10-20 15:30:00,2.0,1.0,2.22517,1.33904,w
+Liverpool,Arsenal,2024-10-27 16:30:00,2.0,2.0,1.35346,1.0883,d
+Liverpool,Brighton,2024-11-02 15:00:00,2.0,1.0,1.81037,1.01568,w
+Liverpool,Aston Villa,2024-11-09 20:00:00,2.0,0.0,2.68196,1.66337,w
+Liverpool,Southampton,2024-11-24 14:00:00,3.0,2.0,3.18835,1.53985,w
+Liverpool,Manchester City,2024-12-01 16:00:00,2.0,0.0,3.70054,0.745015,w
+Liverpool,Newcastle United,2024-12-04 19:30:00,3.0,3.0,2.22766,1.52057,d
+Liverpool,Fulham,2024-12-14 15:00:00,2.0,2.0,2.09698,1.2862,d
+Liverpool,Tottenham,2024-12-22 16:30:00,6.0,3.0,5.20214,1.20245,w
+Liverpool,Leicester,2024-12-26 20:00:00,3.0,1.0,1.89935,0.22097,w
+Liverpool,West Ham,2024-12-29 17:15:00,5.0,0.0,3.29868,0.518279,w
+Liverpool,Manchester United,2025-01-05 16:30:00,2.0,2.0,2.862,1.67469,d
+Liverpool,Nottingham Forest,2025-01-14 20:00:00,1.0,1.0,2.72291,0.5292,d
+Liverpool,Brentford,2025-01-18 15:00:00,2.0,0.0,4.16249,1.20021,w
+Liverpool,Ipswich,2025-01-25 15:00:00,4.0,1.0,2.16809,0.804707,w
+Liverpool,Bournemouth,2025-02-01 15:00:00,2.0,0.0,2.7219,1.65273,w
+Liverpool,Everton,2025-02-12 19:30:00,2.0,2.0,0.929103,0.910523,d
+Liverpool,Wolverhampton Wanderers,2025-02-16 14:00:00,2.0,1.0,1.86758,1.05329,w
+Liverpool,Aston Villa,2025-02-19 15:00:00,2.0,2.0,2.04279,1.02269,d
+Liverpool,Manchester City,2025-02-23 16:30:00,2.0,0.0,0.807058,0.58248,w
+Liverpool,Newcastle United,2025-02-26 20:15:00,2.0,0.0,1.40027,0.45882,w
+Liverpool,Southampton,2025-03-08 15:00:00,3.0,1.0,4.98996,0.511566,w
+Liverpool,Everton,2025-04-02 20:00:00,1.0,0.0,1.29718,0.823136,w
+Liverpool,Fulham,2025-04-06 13:00:00,2.0,3.0,1.40638,1.72764,l
+Liverpool,West Ham,2025-04-13 13:00:00,2.0,1.0,1.42902,1.46598,w
+Liverpool,Leicester,2025-04-20 15:30:00,1.0,0.0,4.52706,0.232205,w
+Liverpool,Tottenham,2025-04-27 15:30:00,5.0,1.0,2.51104,0.512812,w
+Liverpool,Chelsea,2025-05-04 15:30:00,1.0,3.0,1.4267,3.51944,l
+Liverpool,Arsenal,2025-05-11 15:30:00,2.0,2.0,2.74682,2.18795,d
+Liverpool,Brighton,2025-05-19 19:00:00,2.0,3.0,3.065,2.17789,l
+Liverpool,Crystal Palace,2025-05-25 15:00:00,1.0,1.0,1.92122,1.4144,d
+Manchester City,Chelsea,2024-08-18 15:30:00,2.0,0.0,1.18038,1.06123,w
+Manchester City,Ipswich,2024-08-24 14:00:00,4.0,1.0,3.07818,0.479999,w
+Manchester City,West Ham,2024-08-31 16:30:00,3.0,1.0,3.19297,0.947201,w
+Manchester City,Brentford,2024-09-14 14:00:00,2.0,1.0,1.55279,1.05094,w
+Manchester City,Arsenal,2024-09-22 15:30:00,2.0,2.0,2.75588,1.28411,d
+Manchester City,Newcastle United,2024-09-28 11:30:00,1.0,1.0,1.26516,1.34344,d
+Manchester City,Fulham,2024-10-05 14:00:00,3.0,2.0,1.36684,2.75846,w
+Manchester City,Wolverhampton Wanderers,2024-10-20 13:00:00,2.0,1.0,1.36569,0.761217,w
+Manchester City,Southampton,2024-10-26 14:00:00,1.0,0.0,3.16286,0.369989,w
+Manchester City,Bournemouth,2024-11-02 15:00:00,1.0,2.0,2.3527,2.4493,l
+Manchester City,Brighton,2024-11-09 17:30:00,1.0,2.0,2.60334,2.87116,l
+Manchester City,Tottenham,2024-11-23 17:30:00,0.0,4.0,2.15899,3.30449,l
+Manchester City,Liverpool,2024-12-01 16:00:00,0.0,2.0,0.745015,3.70054,l
+Manchester City,Nottingham Forest,2024-12-04 19:30:00,3.0,0.0,3.20169,0.802155,w
+Manchester City,Crystal Palace,2024-12-07 15:00:00,2.0,2.0,1.5846,1.21476,d
+Manchester City,Manchester United,2024-12-15 16:30:00,1.0,2.0,0.638103,2.04662,l
+Manchester City,Aston Villa,2024-12-21 12:30:00,1.0,2.0,1.09627,2.05988,l
+Manchester City,Everton,2024-12-26 12:30:00,1.0,1.0,2.51965,0.653289,d
+Manchester City,Leicester,2024-12-29 14:30:00,2.0,0.0,1.58002,1.84208,w
+Manchester City,West Ham,2025-01-04 15:00:00,4.0,1.0,1.97986,1.53286,w
+Manchester City,Brentford,2025-01-14 19:30:00,2.0,2.0,2.65315,2.39088,d
+Manchester City,Ipswich,2025-01-19 16:30:00,6.0,0.0,3.20228,0.795637,w
+Manchester City,Chelsea,2025-01-25 17:30:00,3.0,1.0,2.23213,1.49843,w
+Manchester City,Arsenal,2025-02-02 16:30:00,1.0,5.0,0.743191,1.53202,l
+Manchester City,Newcastle United,2025-02-15 15:00:00,4.0,0.0,2.12004,0.157211,w
+Manchester City,Liverpool,2025-02-23 16:30:00,0.0,2.0,0.58248,0.807058,l
+Manchester City,Tottenham,2025-02-26 19:30:00,1.0,0.0,2.38641,1.28426,w
+Manchester City,Nottingham Forest,2025-03-08 12:30:00,0.0,1.0,0.721234,0.501476,l
+Manchester City,Brighton,2025-03-15 15:00:00,2.0,2.0,2.02642,2.11119,d
+Manchester City,Leicester,2025-04-02 19:45:00,2.0,0.0,2.07165,0.104741,w
+Manchester City,Manchester United,2025-04-06 15:30:00,0.0,0.0,0.687894,1.23317,d
+Manchester City,Crystal Palace,2025-04-12 11:30:00,5.0,2.0,4.59724,1.33808,w
+Manchester City,Everton,2025-04-19 14:00:00,2.0,0.0,1.87989,0.81683,w
+Manchester City,Aston Villa,2025-04-22 19:00:00,2.0,1.0,1.36232,1.85906,w
+Manchester City,Wolverhampton Wanderers,2025-05-02 19:00:00,1.0,0.0,0.859463,0.622455,w
+Manchester City,Southampton,2025-05-10 14:00:00,0.0,0.0,1.58463,0.136995,d
+Manchester City,Bournemouth,2025-05-20 19:00:00,3.0,1.0,1.59779,0.962014,w
+Manchester City,Fulham,2025-05-25 15:00:00,2.0,0.0,2.45923,2.21797,w
+Manchester United,Fulham,2024-08-16 19:00:00,1.0,0.0,2.04268,0.418711,w
+Manchester United,Brighton,2024-08-24 11:30:00,1.0,2.0,1.28556,2.14153,l
+Manchester United,Liverpool,2024-09-01 15:00:00,0.0,3.0,1.50087,2.10397,l
+Manchester United,Southampton,2024-09-14 11:30:00,3.0,0.0,3.02693,1.35593,w
+Manchester United,Crystal Palace,2024-09-21 16:30:00,0.0,0.0,2.35056,1.66928,d
+Manchester United,Tottenham,2024-09-29 15:30:00,0.0,3.0,0.600721,5.4072,l
+Manchester United,Aston Villa,2024-10-06 13:00:00,0.0,0.0,0.448537,0.532809,d
+Manchester United,Brentford,2024-10-19 14:00:00,2.0,1.0,1.76555,0.892843,w
+Manchester United,West Ham,2024-10-27 14:00:00,1.0,2.0,2.62598,2.99312,l
+Manchester United,Chelsea,2024-11-03 16:30:00,1.0,1.0,2.1605,1.21071,d
+Manchester United,Leicester,2024-11-10 14:00:00,3.0,0.0,1.2369,0.417295,w
+Manchester United,Ipswich,2024-11-24 16:30:00,1.0,1.0,1.26912,1.98714,d
+Manchester United,Everton,2024-12-01 13:30:00,4.0,0.0,1.76161,0.766749,w
+Manchester United,Arsenal,2024-12-04 20:15:00,0.0,2.0,0.256083,2.96684,l
+Manchester United,Nottingham Forest,2024-12-07 17:30:00,2.0,3.0,1.4697,0.651217,l
+Manchester United,Manchester City,2024-12-15 16:30:00,2.0,1.0,2.04662,0.638103,w
+Manchester United,Bournemouth,2024-12-22 14:00:00,0.0,3.0,2.28533,1.82831,l
+Manchester United,Wolverhampton Wanderers,2024-12-26 17:30:00,0.0,2.0,0.358876,0.826489,l
+Manchester United,Newcastle United,2024-12-30 20:00:00,0.0,2.0,1.00073,2.2424,l
+Manchester United,Liverpool,2025-01-05 16:30:00,2.0,2.0,1.67469,2.862,d
+Manchester United,Southampton,2025-01-16 20:00:00,3.0,1.0,3.10847,1.36705,w
+Manchester United,Brighton,2025-01-19 14:00:00,1.0,3.0,1.31823,2.17172,l
+Manchester United,Fulham,2025-01-26 19:00:00,1.0,0.0,0.201988,0.560571,w
+Manchester United,Crystal Palace,2025-02-02 14:00:00,0.0,2.0,1.50706,2.44633,l
+Manchester United,Tottenham,2025-02-16 16:30:00,0.0,1.0,1.42652,1.97109,l
+Manchester United,Everton,2025-02-22 12:30:00,2.0,2.0,0.645685,2.10444,d
+Manchester United,Ipswich,2025-02-26 19:30:00,3.0,2.0,1.40202,1.04498,w
+Manchester United,Arsenal,2025-03-09 16:30:00,1.0,1.0,1.31107,1.82996,d
+Manchester United,Leicester,2025-03-16 19:00:00,3.0,0.0,1.13892,1.30455,w
+Manchester United,Nottingham Forest,2025-04-01 20:00:00,0.0,1.0,1.86688,0.512063,l
+Manchester United,Manchester City,2025-04-06 15:30:00,0.0,0.0,1.23317,0.687894,d
+Manchester United,Newcastle United,2025-04-13 15:30:00,1.0,4.0,0.786568,2.6383,l
+Manchester United,Wolverhampton Wanderers,2025-04-20 13:00:00,0.0,1.0,1.13966,0.187814,l
+Manchester United,Bournemouth,2025-04-27 13:00:00,1.0,1.0,1.91039,0.60995,d
+Manchester United,Brentford,2025-05-04 13:00:00,3.0,4.0,1.13404,3.58737,l
+Manchester United,West Ham,2025-05-11 13:15:00,0.0,2.0,2.31287,2.15985,l
+Manchester United,Chelsea,2025-05-16 19:15:00,0.0,1.0,0.337632,1.29571,l
+Manchester United,Aston Villa,2025-05-25 15:00:00,2.0,0.0,2.96259,0.335222,w
+Brighton,Everton,2024-08-17 14:00:00,3.0,0.0,1.79083,0.405325,w
+Brighton,Manchester United,2024-08-24 11:30:00,2.0,1.0,2.14153,1.28556,w
+Brighton,Arsenal,2024-08-31 11:30:00,1.0,1.0,1.81748,2.41798,d
+Brighton,Ipswich,2024-09-14 14:00:00,0.0,0.0,1.75696,0.721323,d
+Brighton,Nottingham Forest,2024-09-22 13:00:00,2.0,2.0,1.56836,1.36923,d
+Brighton,Chelsea,2024-09-28 14:00:00,2.0,4.0,1.20712,3.65839,l
+Brighton,Tottenham,2024-10-06 15:30:00,3.0,2.0,1.97217,1.09279,w
+Brighton,Newcastle United,2024-10-19 14:00:00,1.0,0.0,1.6779,1.93657,w
+Brighton,Wolverhampton Wanderers,2024-10-26 14:00:00,2.0,2.0,1.51347,1.11074,d
+Brighton,Liverpool,2024-11-02 15:00:00,1.0,2.0,1.01568,1.81037,l
+Brighton,Manchester City,2024-11-09 17:30:00,2.0,1.0,2.87116,2.60334,w
+Brighton,Bournemouth,2024-11-23 15:00:00,2.0,1.0,1.23059,1.91157,w
+Brighton,Southampton,2024-11-29 20:00:00,1.0,1.0,1.86986,0.934969,d
+Brighton,Fulham,2024-12-05 19:30:00,1.0,3.0,1.09939,0.666644,l
+Brighton,Leicester,2024-12-08 14:00:00,2.0,2.0,1.12184,1.42438,d
+Brighton,Crystal Palace,2024-12-15 14:00:00,1.0,3.0,1.32323,3.00618,l
+Brighton,West Ham,2024-12-21 15:00:00,1.0,1.0,1.34379,1.22937,d
+Brighton,Brentford,2024-12-27 19:30:00,0.0,0.0,1.33538,0.961233,d
+Brighton,Aston Villa,2024-12-30 19:45:00,2.0,2.0,0.938042,1.87997,d
+Brighton,Arsenal,2025-01-04 17:30:00,1.0,1.0,1.76513,1.81142,d
+Brighton,Ipswich,2025-01-16 19:30:00,2.0,0.0,1.06343,0.268127,w
+Brighton,Manchester United,2025-01-19 14:00:00,3.0,1.0,2.17172,1.31823,w
+Brighton,Everton,2025-01-25 15:00:00,0.0,1.0,0.64378,0.870883,l
+Brighton,Nottingham Forest,2025-02-01 12:30:00,0.0,7.0,0.756296,4.0677,l
+Brighton,Chelsea,2025-02-14 20:00:00,3.0,0.0,2.06892,0.649788,w
+Brighton,Southampton,2025-02-22 15:00:00,4.0,0.0,5.12018,0.154147,w
+Brighton,Bournemouth,2025-02-25 19:30:00,2.0,1.0,2.57927,1.70169,w
+Brighton,Fulham,2025-03-08 15:00:00,2.0,1.0,1.94417,0.708227,w
+Brighton,Manchester City,2025-03-15 15:00:00,2.0,2.0,2.11119,2.02642,d
+Brighton,Aston Villa,2025-04-02 19:45:00,0.0,3.0,0.558009,1.20715,l
+Brighton,Crystal Palace,2025-04-05 14:00:00,1.0,2.0,1.27226,0.443965,l
+Brighton,Leicester,2025-04-12 14:00:00,2.0,2.0,3.6978,1.98444,d
+Brighton,Brentford,2025-04-19 14:00:00,2.0,4.0,1.24107,2.95516,l
+Brighton,West Ham,2025-04-26 14:00:00,3.0,2.0,1.29433,1.24134,w
+Brighton,Newcastle United,2025-05-04 13:00:00,1.0,1.0,0.687863,1.63777,d
+Brighton,Wolverhampton Wanderers,2025-05-10 14:00:00,2.0,0.0,1.41254,0.73395,w
+Brighton,Liverpool,2025-05-19 19:00:00,3.0,2.0,2.17789,3.065,w
+Brighton,Tottenham,2025-05-25 15:00:00,4.0,1.0,3.11624,1.85265,w
+Fulham,Manchester United,2024-08-16 19:00:00,0.0,1.0,0.418711,2.04268,l
+Fulham,Leicester,2024-08-24 14:00:00,2.0,1.0,1.96218,0.857005,w
+Fulham,Ipswich,2024-08-31 14:00:00,1.0,1.0,1.18883,0.707048,d
+Fulham,West Ham,2024-09-14 14:00:00,1.0,1.0,2.88601,0.682719,d
+Fulham,Newcastle United,2024-09-21 14:00:00,3.0,1.0,3.21141,1.09768,w
+Fulham,Nottingham Forest,2024-09-28 14:00:00,1.0,0.0,1.43592,0.614351,w
+Fulham,Manchester City,2024-10-05 14:00:00,2.0,3.0,2.75846,1.36684,l
+Fulham,Aston Villa,2024-10-19 14:00:00,1.0,3.0,2.63074,1.43595,l
+Fulham,Everton,2024-10-26 16:30:00,1.0,1.0,1.49531,0.884845,d
+Fulham,Brentford,2024-11-04 20:00:00,2.0,1.0,1.43017,0.739231,w
+Fulham,Crystal Palace,2024-11-09 15:00:00,2.0,0.0,2.25331,1.96037,w
+Fulham,Wolverhampton Wanderers,2024-11-23 15:00:00,1.0,4.0,0.717158,1.33903,l
+Fulham,Tottenham,2024-12-01 13:30:00,1.0,1.0,1.57274,1.01086,d
+Fulham,Brighton,2024-12-05 19:30:00,3.0,1.0,0.666644,1.09939,w
+Fulham,Arsenal,2024-12-08 14:00:00,1.0,1.0,0.150988,2.4333,d
+Fulham,Liverpool,2024-12-14 15:00:00,2.0,2.0,1.2862,2.09698,d
+Fulham,Southampton,2024-12-22 14:00:00,0.0,0.0,1.25255,0.280031,d
+Fulham,Chelsea,2024-12-26 15:00:00,2.0,1.0,1.77929,1.55626,w
+Fulham,Bournemouth,2024-12-29 15:00:00,2.0,2.0,0.961566,1.70692,d
+Fulham,Ipswich,2025-01-05 14:00:00,2.0,2.0,2.65469,1.4434,d
+Fulham,West Ham,2025-01-14 19:30:00,2.0,3.0,2.83581,0.937322,l
+Fulham,Leicester,2025-01-18 15:00:00,2.0,0.0,2.36823,0.676934,w
+Fulham,Manchester United,2025-01-26 19:00:00,0.0,1.0,0.560571,0.201988,l
+Fulham,Newcastle United,2025-02-01 15:00:00,2.0,1.0,1.60881,1.22716,w
+Fulham,Nottingham Forest,2025-02-15 15:00:00,2.0,1.0,2.20993,0.331301,w
+Fulham,Crystal Palace,2025-02-22 15:00:00,0.0,2.0,0.23426,1.46203,l
+Fulham,Wolverhampton Wanderers,2025-02-25 19:30:00,2.0,1.0,1.43473,0.928973,w
+Fulham,Brighton,2025-03-08 15:00:00,1.0,2.0,0.708227,1.94417,l
+Fulham,Tottenham,2025-03-16 13:30:00,2.0,0.0,1.03966,1.40865,w
+Fulham,Arsenal,2025-04-01 19:45:00,1.0,2.0,1.44206,2.30189,l
+Fulham,Liverpool,2025-04-06 13:00:00,3.0,2.0,1.72764,1.40638,w
+Fulham,Bournemouth,2025-04-14 19:00:00,0.0,1.0,1.07203,1.8577,l
+Fulham,Chelsea,2025-04-20 13:00:00,1.0,2.0,0.306122,0.75172,l
+Fulham,Southampton,2025-04-26 14:00:00,2.0,1.0,1.9956,0.935581,w
+Fulham,Aston Villa,2025-05-03 11:30:00,0.0,1.0,0.702787,1.29013,l
+Fulham,Everton,2025-05-10 14:00:00,1.0,3.0,1.20869,1.32604,l
+Fulham,Brentford,2025-05-18 14:00:00,3.0,2.0,1.61741,2.43045,w
+Fulham,Manchester City,2025-05-25 15:00:00,0.0,2.0,2.21797,2.45923,l
+Wolverhampton Wanderers,Arsenal,2024-08-17 14:00:00,0.0,2.0,0.575835,1.6283,l
+Wolverhampton Wanderers,Chelsea,2024-08-25 13:00:00,2.0,6.0,2.4181,2.02935,l
+Wolverhampton Wanderers,Nottingham Forest,2024-08-31 14:00:00,1.0,1.0,0.937632,1.41069,d
+Wolverhampton Wanderers,Newcastle United,2024-09-15 15:30:00,1.0,2.0,1.46969,1.48343,l
+Wolverhampton Wanderers,Aston Villa,2024-09-21 14:00:00,1.0,3.0,0.520117,2.37351,l
+Wolverhampton Wanderers,Liverpool,2024-09-28 16:30:00,1.0,2.0,0.748925,2.11724,l
+Wolverhampton Wanderers,Brentford,2024-10-05 14:00:00,3.0,5.0,0.696254,4.13513,l
+Wolverhampton Wanderers,Manchester City,2024-10-20 13:00:00,1.0,2.0,0.761217,1.36569,l
+Wolverhampton Wanderers,Brighton,2024-10-26 14:00:00,2.0,2.0,1.11074,1.51347,d
+Wolverhampton Wanderers,Crystal Palace,2024-11-02 17:30:00,2.0,2.0,1.65018,2.64849,d
+Wolverhampton Wanderers,Southampton,2024-11-09 15:00:00,2.0,0.0,0.912781,0.792655,w
+Wolverhampton Wanderers,Fulham,2024-11-23 15:00:00,4.0,1.0,1.33903,0.717158,w
+Wolverhampton Wanderers,Bournemouth,2024-11-30 15:00:00,2.0,4.0,0.866034,3.07901,l
+Wolverhampton Wanderers,Everton,2024-12-04 19:30:00,0.0,4.0,0.847724,1.49904,l
+Wolverhampton Wanderers,West Ham,2024-12-09 20:00:00,1.0,2.0,1.47567,1.19808,l
+Wolverhampton Wanderers,Ipswich,2024-12-14 15:00:00,1.0,2.0,1.23748,1.73349,l
+Wolverhampton Wanderers,Leicester,2024-12-22 14:00:00,3.0,0.0,1.13531,0.78868,w
+Wolverhampton Wanderers,Manchester United,2024-12-26 17:30:00,2.0,0.0,0.826489,0.358876,w
+Wolverhampton Wanderers,Tottenham,2024-12-29 15:00:00,2.0,2.0,0.640697,2.28433,d
+Wolverhampton Wanderers,Nottingham Forest,2025-01-06 20:00:00,0.0,3.0,1.90463,2.57227,l
+Wolverhampton Wanderers,Newcastle United,2025-01-15 19:30:00,0.0,3.0,1.47433,2.13327,l
+Wolverhampton Wanderers,Chelsea,2025-01-20 20:00:00,1.0,3.0,1.06726,3.14882,l
+Wolverhampton Wanderers,Arsenal,2025-01-25 15:00:00,0.0,1.0,0.514724,0.887358,l
+Wolverhampton Wanderers,Aston Villa,2025-02-01 17:30:00,2.0,0.0,2.00146,0.742809,w
+Wolverhampton Wanderers,Liverpool,2025-02-16 14:00:00,1.0,2.0,1.05329,1.86758,l
+Wolverhampton Wanderers,Bournemouth,2025-02-22 15:00:00,1.0,0.0,2.10124,0.629691,w
+Wolverhampton Wanderers,Fulham,2025-02-25 19:30:00,1.0,2.0,0.928973,1.43473,l
+Wolverhampton Wanderers,Everton,2025-03-08 20:00:00,1.0,1.0,0.812432,1.3672,d
+Wolverhampton Wanderers,Southampton,2025-03-15 15:00:00,2.0,1.0,0.540718,1.2821,w
+Wolverhampton Wanderers,West Ham,2025-04-01 19:45:00,1.0,0.0,1.10359,1.73057,w
+Wolverhampton Wanderers,Ipswich,2025-04-05 14:00:00,2.0,1.0,2.8096,0.872356,w
+Wolverhampton Wanderers,Tottenham,2025-04-13 13:00:00,4.0,2.0,2.22977,1.62887,w
+Wolverhampton Wanderers,Manchester United,2025-04-20 13:00:00,1.0,0.0,0.187814,1.13966,w
+Wolverhampton Wanderers,Leicester,2025-04-26 14:00:00,3.0,0.0,2.57666,1.04978,w
+Wolverhampton Wanderers,Manchester City,2025-05-02 19:00:00,0.0,1.0,0.622455,0.859463,l
+Wolverhampton Wanderers,Brighton,2025-05-10 14:00:00,0.0,2.0,0.73395,1.41254,l
+Wolverhampton Wanderers,Crystal Palace,2025-05-20 19:00:00,2.0,4.0,1.42886,1.68451,l
+Wolverhampton Wanderers,Brentford,2025-05-25 15:00:00,1.0,1.0,1.10889,1.97196,d
+Brentford,Crystal Palace,2024-08-18 13:00:00,2.0,1.0,1.38064,1.14757,w
+Brentford,Liverpool,2024-08-25 15:30:00,0.0,2.0,0.457239,2.71877,l
+Brentford,Southampton,2024-08-31 14:00:00,3.0,1.0,3.86281,1.64713,w
+Brentford,Manchester City,2024-09-14 14:00:00,1.0,2.0,1.05094,1.55279,l
+Brentford,Tottenham,2024-09-21 14:00:00,1.0,3.0,0.893565,3.89481,l
+Brentford,West Ham,2024-09-28 14:00:00,1.0,1.0,0.370222,0.878617,d
+Brentford,Wolverhampton Wanderers,2024-10-05 14:00:00,5.0,3.0,4.13513,0.696254,w
+Brentford,Manchester United,2024-10-19 14:00:00,1.0,2.0,0.892843,1.76555,l
+Brentford,Ipswich,2024-10-26 14:00:00,4.0,3.0,4.09663,1.65698,w
+Brentford,Fulham,2024-11-04 20:00:00,1.0,2.0,0.739231,1.43017,l
+Brentford,Bournemouth,2024-11-09 15:00:00,3.0,2.0,1.56474,2.49234,w
+Brentford,Everton,2024-11-23 15:00:00,0.0,0.0,1.34314,1.5951,d
+Brentford,Leicester,2024-11-30 15:00:00,4.0,1.0,2.21885,0.907555,w
+Brentford,Aston Villa,2024-12-04 20:15:00,1.0,3.0,1.13266,3.21673,l
+Brentford,Newcastle United,2024-12-07 15:00:00,4.0,2.0,1.746,1.95645,w
+Brentford,Chelsea,2024-12-15 19:00:00,1.0,2.0,1.65861,2.59146,l
+Brentford,Nottingham Forest,2024-12-21 15:00:00,0.0,2.0,0.769004,0.964897,l
+Brentford,Brighton,2024-12-27 19:30:00,0.0,0.0,0.961233,1.33538,d
+Brentford,Arsenal,2025-01-01 17:30:00,1.0,3.0,0.272604,1.99848,l
+Brentford,Southampton,2025-01-04 15:00:00,5.0,0.0,5.54874,0.249614,w
+Brentford,Manchester City,2025-01-14 19:30:00,2.0,2.0,2.39088,2.65315,d
+Brentford,Liverpool,2025-01-18 15:00:00,0.0,2.0,1.20021,4.16249,l
+Brentford,Crystal Palace,2025-01-26 14:00:00,2.0,1.0,1.92037,1.23177,w
+Brentford,Tottenham,2025-02-02 14:00:00,0.0,2.0,1.66475,0.945355,l
+Brentford,West Ham,2025-02-15 15:00:00,1.0,0.0,1.96499,0.673466,w
+Brentford,Leicester,2025-02-21 20:00:00,4.0,0.0,2.03465,0.727901,w
+Brentford,Everton,2025-02-26 19:30:00,1.0,1.0,1.34009,1.44955,d
+Brentford,Aston Villa,2025-03-08 17:30:00,0.0,1.0,0.637743,1.29638,l
+Brentford,Bournemouth,2025-03-15 17:30:00,2.0,1.0,1.60321,2.02714,w
+Brentford,Newcastle United,2025-04-02 19:45:00,1.0,2.0,1.53201,2.26584,l
+Brentford,Chelsea,2025-04-06 13:00:00,0.0,0.0,1.36123,1.47829,d
+Brentford,Arsenal,2025-04-12 16:30:00,1.0,1.0,0.588583,0.767369,d
+Brentford,Brighton,2025-04-19 14:00:00,4.0,2.0,2.95516,1.24107,w
+Brentford,Nottingham Forest,2025-05-01 18:30:00,2.0,0.0,1.52054,0.670607,w
+Brentford,Manchester United,2025-05-04 13:00:00,4.0,3.0,3.58737,1.13404,w
+Brentford,Ipswich,2025-05-10 14:00:00,1.0,0.0,1.32077,0.717433,w
+Brentford,Fulham,2025-05-18 14:00:00,2.0,3.0,2.43045,1.61741,l
+Brentford,Wolverhampton Wanderers,2025-05-25 15:00:00,1.0,1.0,1.97196,1.10889,d
+Nottingham Forest,Bournemouth,2024-08-17 14:00:00,1.0,1.0,1.24405,1.90915,d
+Nottingham Forest,Southampton,2024-08-24 14:00:00,1.0,0.0,2.86475,0.214952,w
+Nottingham Forest,Wolverhampton Wanderers,2024-08-31 14:00:00,1.0,1.0,1.41069,0.937632,d
+Nottingham Forest,Liverpool,2024-09-14 14:00:00,1.0,0.0,0.589532,1.17044,w
+Nottingham Forest,Brighton,2024-09-22 13:00:00,2.0,2.0,1.36923,1.56836,d
+Nottingham Forest,Fulham,2024-09-28 14:00:00,0.0,1.0,0.614351,1.43592,l
+Nottingham Forest,Chelsea,2024-10-06 13:00:00,1.0,1.0,1.66654,2.27752,d
+Nottingham Forest,Crystal Palace,2024-10-21 19:00:00,1.0,0.0,1.88573,0.835001,w
+Nottingham Forest,Leicester,2024-10-25 19:00:00,3.0,1.0,2.54488,0.832415,w
+Nottingham Forest,West Ham,2024-11-02 15:00:00,3.0,0.0,2.35011,0.132317,w
+Nottingham Forest,Newcastle United,2024-11-10 14:00:00,1.0,3.0,1.17852,1.86904,l
+Nottingham Forest,Arsenal,2024-11-23 15:00:00,0.0,3.0,0.403136,1.66016,l
+Nottingham Forest,Ipswich,2024-11-30 15:00:00,1.0,0.0,1.76587,0.462771,w
+Nottingham Forest,Manchester City,2024-12-04 19:30:00,0.0,3.0,0.802155,3.20169,l
+Nottingham Forest,Manchester United,2024-12-07 17:30:00,3.0,2.0,0.651217,1.4697,w
+Nottingham Forest,Aston Villa,2024-12-14 17:30:00,2.0,1.0,2.2861,0.389423,w
+Nottingham Forest,Brentford,2024-12-21 15:00:00,2.0,0.0,0.964897,0.769004,w
+Nottingham Forest,Tottenham,2024-12-26 15:00:00,1.0,0.0,1.30018,1.05758,w
+Nottingham Forest,Everton,2024-12-29 15:00:00,2.0,0.0,2.02753,0.615191,w
+Nottingham Forest,Wolverhampton Wanderers,2025-01-06 20:00:00,3.0,0.0,2.57227,1.90463,w
+Nottingham Forest,Liverpool,2025-01-14 20:00:00,1.0,1.0,0.5292,2.72291,d
+Nottingham Forest,Southampton,2025-01-19 14:00:00,3.0,2.0,2.36419,1.25922,w
+Nottingham Forest,Bournemouth,2025-01-25 15:00:00,0.0,5.0,0.996166,2.8254,l
+Nottingham Forest,Brighton,2025-02-01 12:30:00,7.0,0.0,4.0677,0.756296,w
+Nottingham Forest,Fulham,2025-02-15 15:00:00,1.0,2.0,0.331301,2.20993,l
+Nottingham Forest,Newcastle United,2025-02-23 14:00:00,3.0,4.0,2.38603,3.45858,l
+Nottingham Forest,Arsenal,2025-02-26 19:30:00,0.0,0.0,0.508611,1.31766,d
+Nottingham Forest,Manchester City,2025-03-08 12:30:00,1.0,0.0,0.501476,0.721234,w
+Nottingham Forest,Ipswich,2025-03-15 15:00:00,4.0,2.0,1.30722,0.520839,w
+Nottingham Forest,Manchester United,2025-04-01 20:00:00,1.0,0.0,0.512063,1.86688,w
+Nottingham Forest,Aston Villa,2025-04-05 16:30:00,1.0,2.0,0.96769,2.63349,l
+Nottingham Forest,Everton,2025-04-12 14:00:00,0.0,1.0,0.423949,1.26036,l
+Nottingham Forest,Tottenham,2025-04-21 19:00:00,2.0,1.0,0.557682,2.4024,w
+Nottingham Forest,Brentford,2025-05-01 18:30:00,0.0,2.0,0.670607,1.52054,l
+Nottingham Forest,Crystal Palace,2025-05-05 19:00:00,1.0,1.0,0.63684,2.34037,d
+Nottingham Forest,Leicester,2025-05-11 13:15:00,2.0,2.0,1.76909,1.22949,d
+Nottingham Forest,West Ham,2025-05-18 13:15:00,2.0,1.0,2.14756,0.850457,w
+Nottingham Forest,Chelsea,2025-05-25 15:00:00,0.0,1.0,1.58014,1.30874,l
+Ipswich,Liverpool,2024-08-17 11:30:00,0.0,2.0,0.342601,3.92906,l
+Ipswich,Manchester City,2024-08-24 14:00:00,1.0,4.0,0.479999,3.07818,l
+Ipswich,Fulham,2024-08-31 14:00:00,1.0,1.0,0.707048,1.18883,d
+Ipswich,Brighton,2024-09-14 14:00:00,0.0,0.0,0.721323,1.75696,d
+Ipswich,Southampton,2024-09-21 14:00:00,1.0,1.0,1.645,2.89813,d
+Ipswich,Aston Villa,2024-09-29 13:00:00,2.0,2.0,1.84608,1.14494,d
+Ipswich,West Ham,2024-10-05 14:00:00,1.0,4.0,1.18463,4.39402,l
+Ipswich,Everton,2024-10-19 14:00:00,0.0,2.0,1.174,1.60804,l
+Ipswich,Brentford,2024-10-26 14:00:00,3.0,4.0,1.65698,4.09663,l
+Ipswich,Leicester,2024-11-02 15:00:00,1.0,1.0,1.33617,2.33858,d
+Ipswich,Tottenham,2024-11-10 14:00:00,2.0,1.0,2.18392,1.75088,w
+Ipswich,Manchester United,2024-11-24 16:30:00,1.0,1.0,1.98714,1.26912,d
+Ipswich,Nottingham Forest,2024-11-30 15:00:00,0.0,1.0,0.462771,1.76587,l
+Ipswich,Crystal Palace,2024-12-03 19:30:00,0.0,1.0,0.471708,1.65422,l
+Ipswich,Bournemouth,2024-12-08 14:00:00,1.0,2.0,1.5668,3.49127,l
+Ipswich,Wolverhampton Wanderers,2024-12-14 15:00:00,2.0,1.0,1.73349,1.23748,w
+Ipswich,Newcastle United,2024-12-21 15:00:00,0.0,4.0,1.06427,3.23386,l
+Ipswich,Arsenal,2024-12-27 20:15:00,0.0,1.0,0.0783327,2.16462,l
+Ipswich,Chelsea,2024-12-30 19:45:00,2.0,0.0,1.50093,1.60622,w
+Ipswich,Fulham,2025-01-05 14:00:00,2.0,2.0,1.4434,2.65469,d
+Ipswich,Brighton,2025-01-16 19:30:00,0.0,2.0,0.268127,1.06343,l
+Ipswich,Manchester City,2025-01-19 16:30:00,0.0,6.0,0.795637,3.20228,l
+Ipswich,Liverpool,2025-01-25 15:00:00,1.0,4.0,0.804707,2.16809,l
+Ipswich,Southampton,2025-02-01 15:00:00,1.0,2.0,1.94845,1.17566,l
+Ipswich,Aston Villa,2025-02-15 15:00:00,1.0,1.0,0.332864,2.89841,d
+Ipswich,Tottenham,2025-02-22 15:00:00,1.0,4.0,1.15389,1.58741,l
+Ipswich,Manchester United,2025-02-26 19:30:00,2.0,3.0,1.04498,1.40202,l
+Ipswich,Crystal Palace,2025-03-08 15:00:00,0.0,1.0,1.63282,3.13879,l
+Ipswich,Nottingham Forest,2025-03-15 15:00:00,2.0,4.0,0.520839,1.30722,l
+Ipswich,Bournemouth,2025-04-02 19:45:00,2.0,1.0,1.41263,1.99637,w
+Ipswich,Wolverhampton Wanderers,2025-04-05 14:00:00,1.0,2.0,0.872356,2.8096,l
+Ipswich,Chelsea,2025-04-13 13:00:00,2.0,2.0,1.60301,2.90758,d
+Ipswich,Arsenal,2025-04-20 13:00:00,0.0,4.0,0.192879,2.81362,l
+Ipswich,Newcastle United,2025-04-26 14:00:00,0.0,3.0,0.127203,4.11539,l
+Ipswich,Everton,2025-05-03 14:00:00,2.0,2.0,1.14351,0.808481,d
+Ipswich,Brentford,2025-05-10 14:00:00,0.0,1.0,0.717433,1.32077,l
+Ipswich,Leicester,2025-05-18 14:00:00,0.0,2.0,1.36957,0.788544,l
+Ipswich,West Ham,2025-05-25 15:00:00,1.0,3.0,0.893095,0.967379,l

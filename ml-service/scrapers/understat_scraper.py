@@ -1,72 +1,56 @@
-# import requests 
-# # re imports pythons regualr expression module | used to search for patterns in the HTML specifically to extract JSON embedded in JavaScript
-# import re
-# # json is used to parse strings into Python dictonaries/lists which is basically just a JS object
-# import json
-# import pandas as pd
-
-# BASE_URL = "https://understat.com/league/EPL"
-
-# # Scraping expected goals and shots and deep passes e.t.c
-# def scrape_understat_epl(save=True): 
-#   res = requests.get(BASE_URL)
-#   text = res.text
-#   json_data = re.search(r"var\s+teamsData\s+=\s+JSON.parse\('([^']+)'\)", text) # extracting JSON data from the text variable using regex | uses a regex pattern to capture the JSON data in the quotes | regex stands for regular expression
-  
-#   if not json_data:
-#       raise Exception("❌ Could not extract team data from Understat.")
-  
-#   json_data = json_data.group(1).encode('utf8').decode('unicode_escape') # group(1) gets the captured string for the regex search | encode and decode converts any escaped characters into proper unicode | making it valid JSON string ready to parse 
-#   teams_data = json.loads(json_data) # parsing the JSON into the python dictonary | teams_data is now a dictionary where keys are team IDs and values are team INFO
-
-#   teams = [] # list for all of the team data
-
-#   for team_id, team in teams_data.items(): # iterate over all the teams and get the match history 
-#       title = team["title"]
-#       history = pd.DataFrame(team['history'])
-#       history["team"] = title
-#       teams.append(history)
-
-#   df = pd.concat(teams, ignore_index=True) # concat all the different teams into one dataframe
-#   if save: 
-#       df.to_csv("data/understat_team_data.csv", index=False)
-#       print("✅ Saved Understat xG data → data/understat_team_data.csv")
-#   return df
-
-# if __name__ == "__main__":
-#     scrape_understat_epl()
-
-import requests 
-import re
-import json
+import asyncio
+import aiohttp
 import pandas as pd
+from understat import Understat
 
-BASE_URL = "https://understat.com/league/EPL"
+async def scrape_understat_epl():
+    print("🚀 Scraping Understat team pages...")
 
-def scrape_understat_epl(save=True):
-    res = requests.get(BASE_URL)
-    text = res.text
-    json_data = re.search(r"var\s+teamsData\s+=\s+JSON.parse\('([^']+)'\)", text)
-  
-    if not json_data:
-        raise Exception("❌ Could not extract team data from Understat.")
-  
-    json_data = json_data.group(1).encode('utf8').decode('unicode_escape')
-    teams_data = json.loads(json_data)
+    async with aiohttp.ClientSession() as session:
+        understat = Understat(session)
+        league = "EPL"
+        season = 2024
 
-    teams = []
+        teams = await understat.get_teams(league, season)
+        team_names = [team["title"] for team in teams]
+        print(f"✅ Found {len(team_names)} teams in {league}: {team_names}")
 
-    for team_id, team in teams_data.items():
-        title = team["title"]
-        history = pd.DataFrame(team['history'])
-        history["team"] = title
-        teams.append(history)
+        all_matches = []
 
-    df = pd.concat(teams, ignore_index=True)
-    if save:
+        for team in team_names:
+            print(f"📊 Fetching data for {team}...")
+            try:
+                team_stats = await understat.get_team_results(team, season)
+                
+                if team_stats:
+                    # 👇 Print first match structure for inspection (optional)
+                    print(f"🔍 Example match structure for {team}:")
+                    print(team_stats[0])
+                
+                for match in team_stats:
+                    # Determine if this team was home or away
+                    is_home = match["side"] == "h"
+                    team_side = "h" if is_home else "a"
+                    opp_side = "a" if is_home else "h"
+
+                    all_matches.append({
+                        "team": match[team_side]["title"],
+                        "opponent": match[opp_side]["title"],
+                        "date": match["datetime"],
+                        "goals_for": float(match["goals"][team_side]),
+                        "goals_against": float(match["goals"][opp_side]),
+                        "xG_for": float(match["xG"][team_side]),
+                        "xG_against": float(match["xG"][opp_side]),
+                        "result": match["result"],
+                    })
+
+            except Exception as e:
+                print(f"❌ Failed for {team}: {e}")
+
+        df = pd.DataFrame(all_matches)
         df.to_csv("data/understat_team_data.csv", index=False)
-        print("✅ Saved Understat xG data → data/understat_team_data.csv")
-    return df
+        print("✅ Saved Understat EPL data → data/understat_team_data.csv")
+        return df
 
 if __name__ == "__main__":
-    scrape_understat_epl()
+    asyncio.run(scrape_understat_epl())
