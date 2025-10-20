@@ -1,0 +1,5 @@
+flask
+pandas
+joblib
+beautifulsoup4
+requests
