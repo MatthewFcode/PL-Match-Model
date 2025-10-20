@@ -20,4 +20,4 @@ coverage/*
 /dist
 
 #venv | virtual python environement
-.venv
+**/.venv
