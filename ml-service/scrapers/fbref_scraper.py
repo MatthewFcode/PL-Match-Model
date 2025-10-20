@@ -6,6 +6,7 @@ import pandas as pd
 
 BASE_URL = "https://fbref.com/en/comps/9/Premier-League-Stats"
 
+#Scraping corem team stats e.g. matches, players, goals, possesion, cards e.t.c
 # function definition with an optional argument that controls whether the results get savec to a CSV file
 def scrape_fbref_premier_league(save=True): 
   # sends the HTTP get request to the base url 

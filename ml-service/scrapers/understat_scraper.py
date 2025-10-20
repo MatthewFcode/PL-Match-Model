@@ -7,6 +7,7 @@ import pandas as pd
 
 BASE_URL = "https://understat.com/league/EPL"
 
+# Scraping expected goals and shots and deep passes e.t.c
 def scrape_understat_epl(save=True): 
   res = requests.get(BASE_URL)
   text = res.text

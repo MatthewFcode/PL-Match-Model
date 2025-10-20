@@ -5,6 +5,7 @@ import io
 
 BASE_URL = URL = "https://www.football-data.co.uk/mmz4281/2425/E0.csv"
 
+# scarping historical data and betting odds
 def scrape_football_data(save=True):
   res = requests.get(BASE_URL)
   df = pd.read_csv(io.StringIO(res.text))  # turns the response into a readible file object because pandas read file objects 
