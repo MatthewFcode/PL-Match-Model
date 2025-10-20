@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import joblib
-from scrapers.fbref_scraper import scrape_fbref_premier_league
+from scrapers.run_all_scrapers import run_all
+
 
 app = Flask(__name__)
 
@@ -14,7 +15,7 @@ except:
 #  route that is getting data from the webscrapers
 @app.route("/scrape", methods=["GET"])
 def scrape_data():
-    df = scrape_fbref_premier_league()
+    df = run_all()
     return jsonify({"rows": len(df), "columns": list(df.columns)})
 
 @app.route("/predict", methods=["POST"])
