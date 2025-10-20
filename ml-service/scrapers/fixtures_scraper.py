@@ -3,6 +3,7 @@ import pandas as pd
 
 BASE_URL = "https://footballapi.pulselive.com/football/fixtures?comps=1&teams=ALL&pageSize=1000"
 
+## vital web scraper for gettting the next five matches per the team
 def scrape_fixtures(save=True): 
   headers = {"Origin": "https://www.premierleague.com", "User-Agent": "Mozilla/5.0"}
   res = requests.get(BASE_URL, headers=headers)
