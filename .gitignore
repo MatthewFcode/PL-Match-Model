@@ -19,5 +19,5 @@ coverage/*
 # Build directory
 /dist
 
-#venv | virtual python environement
+# Python virtual environment
 venv/
