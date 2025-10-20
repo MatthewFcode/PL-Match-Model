@@ -21,3 +21,4 @@ coverage/*
 
 # Python virtual environment
 venv/
+ml-service/.venv/
