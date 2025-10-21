@@ -53,4 +53,4 @@ async def scrape_understat_epl():
         return df
 
 if __name__ == "__main__":
-    asyncio.run(scrape_understat_epl())
+    scrape_understat_epl()

@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 import joblib
 import warnings
 
+import os
+
+# Make sure the 'models' folder exists
+os.makedirs("models", exist_ok=True)
 warnings.filterwarnings("ignore")
 
 # ==========================================
