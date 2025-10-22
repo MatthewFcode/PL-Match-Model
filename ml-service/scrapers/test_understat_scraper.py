@@ -48,9 +48,9 @@ async def test_scrape_understat_epl():
                 print(f"❌ Failed for {team}: {e}")
 
         df = pd.DataFrame(all_matches)
-        df.to_csv("data/test_understat_team_data.csv", index=False)
-        print("✅ Saved Understat EPL data → data/test_understat_team_data.csv")
+        df.to_csv("data/understat_team_data.csv", index=False)
+        print("✅ Saved Understat EPL data → data/understat_team_data.csv")
         return df
 
 if __name__ == "__main__":
-    test_scrape_understat_epl()
+    asyncio.run(test_scrape_understat_epl())

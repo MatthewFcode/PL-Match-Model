@@ -8,7 +8,7 @@ date,home_team,away_team
 2025-10-26,Aston Villa,Manchester City
 2025-10-26,Wolverhampton Wanderers,Burnley
 2025-10-26,Everton,Tottenham
-2025-11-01,Brighton,Leeds United
+2025-11-01,Brighton,Leeds
 2025-11-01,Burnley,Arsenal
 2025-11-01,Crystal Palace,Brentford
 2025-11-01,Fulham,Wolverhampton Wanderers
@@ -26,7 +26,7 @@ date,home_team,away_team
 2025-11-09,Aston Villa,Bournemouth
 2025-11-09,Brentford,Newcastle United
 2025-11-09,Crystal Palace,Brighton
-2025-11-09,Nottingham Forest,Leeds United
+2025-11-09,Nottingham Forest,Leeds
 2025-11-09,Manchester City,Liverpool
 2025-11-22,Burnley,Chelsea
 2025-11-22,Bournemouth,West Ham
@@ -35,11 +35,11 @@ date,home_team,away_team
 2025-11-22,Liverpool,Nottingham Forest
 2025-11-22,Wolverhampton Wanderers,Crystal Palace
 2025-11-22,Newcastle United,Manchester City
-2025-11-23,Leeds United,Aston Villa
+2025-11-23,Leeds,Aston Villa
 2025-11-23,Arsenal,Tottenham
 2025-11-24,Manchester United,Everton
 2025-11-29,Brentford,Burnley
-2025-11-29,Manchester City,Leeds United
+2025-11-29,Manchester City,Leeds
 2025-11-29,Sunderland,Bournemouth
 2025-11-29,Everton,Newcastle United
 2025-11-29,Tottenham,Fulham
@@ -53,7 +53,7 @@ date,home_team,away_team
 2025-12-03,Brighton,Aston Villa
 2025-12-03,Burnley,Crystal Palace
 2025-12-03,Fulham,Manchester City
-2025-12-03,Leeds United,Chelsea
+2025-12-03,Leeds,Chelsea
 2025-12-03,Liverpool,Sunderland
 2025-12-03,Manchester United,West Ham
 2025-12-03,Newcastle United,Tottenham
@@ -63,13 +63,13 @@ date,home_team,away_team
 2025-12-06,Brighton,West Ham
 2025-12-06,Everton,Nottingham Forest
 2025-12-06,Fulham,Crystal Palace
-2025-12-06,Leeds United,Liverpool
+2025-12-06,Leeds,Liverpool
 2025-12-06,Manchester City,Sunderland
 2025-12-06,Newcastle United,Burnley
 2025-12-06,Tottenham,Brentford
 2025-12-06,Wolverhampton Wanderers,Manchester United
 2025-12-13,Arsenal,Wolverhampton Wanderers
-2025-12-13,Brentford,Leeds United
+2025-12-13,Brentford,Leeds
 2025-12-13,Burnley,Fulham
 2025-12-13,Chelsea,Everton
 2025-12-13,Crystal Palace,Manchester City
@@ -83,7 +83,7 @@ date,home_team,away_team
 2025-12-20,Brighton,Sunderland
 2025-12-20,Everton,Arsenal
 2025-12-20,Fulham,Nottingham Forest
-2025-12-20,Leeds United,Crystal Palace
+2025-12-20,Leeds,Crystal Palace
 2025-12-20,Manchester City,West Ham
 2025-12-20,Newcastle United,Chelsea
 2025-12-20,Tottenham,Liverpool
@@ -96,14 +96,14 @@ date,home_team,away_team
 2025-12-27,Liverpool,Wolverhampton Wanderers
 2025-12-27,Manchester United,Newcastle United
 2025-12-27,Nottingham Forest,Manchester City
-2025-12-27,Sunderland,Leeds United
+2025-12-27,Sunderland,Leeds
 2025-12-27,West Ham,Fulham
 2025-12-30,Arsenal,Aston Villa
 2025-12-30,Brentford,Tottenham
 2025-12-30,Burnley,Newcastle United
 2025-12-30,Chelsea,Bournemouth
 2025-12-30,Crystal Palace,Fulham
-2025-12-30,Liverpool,Leeds United
+2025-12-30,Liverpool,Leeds
 2025-12-30,Manchester United,Wolverhampton Wanderers
 2025-12-30,Nottingham Forest,Everton
 2025-12-30,Sunderland,Manchester City

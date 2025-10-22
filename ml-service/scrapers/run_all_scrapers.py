@@ -1,8 +1,8 @@
 import asyncio
 # asyncio is pythons built in library for running asynchronous code
-from scrapers.understat_scraper import scrape_understat_epl
 from scrapers.football_data_scraper import scrape_football_data
-from test_understat_scraper import test_scrape_understat_epl
+from scrapers.test_understat_scraper import test_scrape_understat_epl
+from scrapers.understat_scraper import scrape_understat_epl
 
 def run_all():
     print("🚀 Starting all scrapers...")
@@ -45,3 +45,6 @@ def run_all():
 
     print("✅ All data sources processed.")
     return results
+
+if __name__ == "__main__":
+  run_all()
