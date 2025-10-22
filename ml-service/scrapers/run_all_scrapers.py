@@ -1,6 +1,8 @@
 import asyncio
+# asyncio is pythons built in library for running asynchronous code
 from scrapers.understat_scraper import scrape_understat_epl
 from scrapers.football_data_scraper import scrape_football_data
+from test_understat_scraper import test_scrape_understat_epl
 
 def run_all():
     print("🚀 Starting all scrapers...")
@@ -8,8 +10,20 @@ def run_all():
 
     try:
         # Run the async Understat scraper inside sync context
-        df_understat = asyncio.run(scrape_understat_epl())
-        results["understat"] = {
+        df_understat = asyncio.run(scrape_understat_epl())  # vairable defined with the scrape understat running asynchrnously 
+        results["understat"] = { # the data frame
+            "status": "success",
+            "rows": len(df_understat),
+            "columns": list(df_understat.columns)
+        }
+    except Exception as e:
+        print(f"❌ Understat failed: {e}")
+        results["understat"] = {"status": "error", "message": str(e)}
+    
+    try:
+        # Run the async Understat scraper inside sync context
+        df_understat = asyncio.run(test_scrape_understat_epl())  # vairable defined with the scrape understat running asynchrnously 
+        results["understat"] = { # the data frame
             "status": "success",
             "rows": len(df_understat),
             "columns": list(df_understat.columns)

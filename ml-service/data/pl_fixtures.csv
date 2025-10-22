@@ -1,164 +1,112 @@
 date,home_team,away_team
-2025-10-25,Manchester City,Arsenal
-2025-10-25,Burnley,Leeds United
-2025-10-25,Crystal Palace,Nottingham Forest
-2025-10-25,Everton,Newcastle United
-2025-10-25,Fulham,Brentford
-2025-10-25,Liverpool,Manchester United
-2025-10-25,Sheffield United,Aston Villa
-2025-10-25,Tottenham Hotspur,Chelsea
-2025-10-25,West Ham United,Sunderland
-2025-10-25,Bournemouth,Southampton
-2025-10-25,Arsenal,Leicester City
-2025-10-25,Manchester United,Brighton & Hove Albion
-2025-10-25,Newcastle United,Crystal Palace
-2025-10-25,Nottingham Forest,Everton
-2025-10-25,Southampton,Fulham
-2025-10-25,Tottenham Hotspur,West Ham United
-2025-10-25,Brentford,Sheffield United
-2025-10-25,Chelsea,Burnley
-2025-10-25,Leeds United,Liverpool
-2025-10-25,Sunderland,Bournemouth
-2025-10-25,Aston Villa,Arsenal
-2025-10-25,Brighton & Hove Albion,Manchester City
-2025-10-25,Leicester City,Tottenham Hotspur
-2025-10-25,West Ham United,Nottingham Forest
-2025-10-25,Southampton,Newcastle United
-2025-10-25,Sheffield United,Fulham
-2025-10-25,Everton,Brentford
-2025-10-25,Liverpool,Arsenal
-2025-10-25,Manchester United,Leeds United
-2025-10-25,Southampton,Leicester City
-2025-10-25,West Ham United,Chelsea
-2025-10-25,Nottingham Forest,Brighton & Hove Albion
-2025-10-25,Aston Villa,Manchester City
-2025-10-25,Tottenham Hotspur,Southampton
-2025-10-25,Everton,Leeds United
-2025-10-25,Brentford,Fulham
-2025-10-25,Bournemouth,Nottingham Forest
-2025-10-25,Crystal Palace,West Ham United
-2025-10-25,Sheffield United,Arsenal
-2025-10-25,Sunderland,Manchester United
-2025-10-25,Leicester City,Southampton
-2025-10-25,Tottenham Hotspur,Newcastle United
-2025-10-25,West Ham United,Sheffield United
-2025-10-25,Fulham,Leeds United
-2025-10-25,Everton,Manchester City
-2025-10-25,Arsenal,Southampton
-2025-10-25,Brentford,Nottingham Forest
-2025-10-25,Burnley,West Ham United
-2025-10-25,Leicester City,Crystal Palace
-2025-10-25,Manchester United,Fulham
-2025-10-25,Liverpool,Tottenham Hotspur
-2025-10-25,Aston Villa,Sunderland
-2025-10-25,Newcastle United,Bournemouth
-2025-10-25,Sheffield United,Everton
-2025-10-25,Arsenal,Brentford
-2025-10-25,Southampton,West Ham United
-2025-10-25,Leeds United,Nottingham Forest
-2025-10-25,Manchester City,Leicester City
-2025-10-25,Tottenham Hotspur,Fulham
-2025-10-25,Crystal Palace,Sheffield United
-2025-10-25,Burnley,Liverpool
-2025-10-25,West Ham United,Bournemouth
-2025-10-25,Newcastle United,Arsenal
-2025-10-25,Brentford,Manchester United
-2025-10-25,Southampton,Everton
-2025-10-25,Nottingham Forest,Leeds United
-2025-10-25,Fulham,Tottenham Hotspur
-2025-10-25,Sheffield United,Leicester City
-2025-10-25,West Ham United,Crystal Palace
-2025-10-25,Manchester City,Southampton
-2025-10-25,Arsenal,Newcastle United
-2025-10-25,Leeds United,Brentford
-2025-10-25,Tottenham Hotspur,Burnley
-2025-10-25,Everton,Liverpool
-2025-10-25,Nottingham Forest,West Ham United
-2025-10-25,Fulham,Sheffield United
-2025-10-25,Crystal Palace,Manchester United
-2025-10-25,Bournemouth,Arsenal
-2025-10-25,Sunderland,Leicester City
-2025-10-25,Southampton,Tottenham Hotspur
+2025-10-25,Chelsea,Sunderland
 2025-10-25,Newcastle United,Fulham
-2025-10-25,West Ham United,Leeds United
-2025-10-25,Everton,Nottingham Forest
-2025-10-25,Brentford,Burnley
-2025-10-25,Manchester City,Tottenham Hotspur
-2025-10-25,Arsenal,Southampton
-2025-10-25,Fulham,Newcastle United
-2025-10-25,Leeds United,Crystal Palace
-2025-10-25,West Ham United,Manchester United
-2025-10-25,Nottingham Forest,Sheffield United
-2025-10-25,Tottenham Hotspur,Bournemouth
-2025-10-25,Everton,Leicester City
-2025-10-25,Brentford,Arsenal
-2025-10-25,Southampton,Newcastle United
-2025-10-25,Leeds United,West Ham United
-2025-10-25,Fulham,Tottenham Hotspur
-2025-10-25,Crystal Palace,Everton
-2025-10-25,Manchester United,Sheffield United
-2025-10-25,Arsenal,Burnley
-2025-10-25,Nottingham Forest,Leicester City
-2025-10-25,West Ham United,Tottenham Hotspur
-2025-10-25,Southampton,Brentford
-2025-10-25,Fulham,Manchester City
-2025-10-25,Leeds United,Fulham
-2025-10-25,Crystal Palace,Nottingham Forest
-2025-10-25,Sheffield United,Southampton
-2025-10-25,West Ham United,Newcastle United
-2025-10-25,Arsenal,Leeds United
-2025-10-25,Manchester United,Everton
-2025-10-25,Tottenham Hotspur,Crystal Palace
-2025-10-25,Southampton,Fulham
-2025-10-25,Leicester City,West Ham United
-2025-10-25,Newcastle United,Brentford
-2025-10-25,Manchester City,Nottingham Forest
-2025-10-25,Arsenal,Sheffield United
-2025-10-25,Southampton,Leeds United
-2025-10-25,Tottenham Hotspur,Burnley
-2025-10-25,Everton,Manchester United
-2025-10-25,West Ham United,Crystal Palace
-2025-10-25,Fulham,Leicester City
-2025-10-25,Brentford,Southampton
-2025-10-25,Leeds United,Nottingham Forest
-2025-10-25,Arsenal,Fulham
-2025-10-25,Sheffield United,Tottenham Hotspur
-2025-10-25,Manchester United,West Ham United
-2025-10-25,Southampton,Leicester City
-2025-10-25,Everton,Arsenal
-2025-10-25,Newcastle United,Manchester City
-2025-10-25,Brentford,Leeds United
-2025-10-25,West Ham United,Fulham
-2025-10-25,Sheffield United,Crystal Palace
-2025-10-25,Tottenham Hotspur,Southampton
-2025-10-25,Arsenal,Brentford
-2025-10-25,Manchester United,Leicester City
-2025-10-25,Nottingham Forest,West Ham United
-2025-10-25,Southampton,Newcastle United
-2025-10-25,Everton,Sheffield United
-2025-10-25,Leeds United,Arsenal
-2025-10-25,Tottenham Hotspur,Manchester City
-2025-10-25,West Ham United,Brentford
-2025-10-25,Fulham,Nottingham Forest
-2025-10-25,Crystal Palace,Leicester City
-2025-10-25,Southampton,Tottenham Hotspur
-2025-10-25,Manchester United,Newcastle United
-2025-10-25,Arsenal,Crystal Palace
-2025-10-25,Leeds United,West Ham United
-2025-10-25,Everton,Brentford
-2025-10-25,Southampton,Fulham
-2025-10-25,Sheffield United,Arsenal
-2025-10-25,Manchester United,Leicester City
-2025-10-25,West Ham United,Southampton
-2025-10-25,Nottingham Forest,Crystal Palace
-2025-10-25,Tottenham Hotspur,Newcastle United
-2025-10-25,Brentford,Sheffield United
-2025-10-25,Arsenal,Everton
-2025-10-25,Manchester United,West Ham United
-2025-10-25,Southampton,Leeds United
-2025-10-25,Tottenham Hotspur,Fulham
-2025-10-25,Crystal Palace,Manchester City
-2025-10-25,Brentford,Nottingham Forest
-2025-10-25,West Ham
+2025-10-25,Manchester United,Brighton
+2025-10-25,Brentford,Liverpool
+2025-10-26,Arsenal,Crystal Palace
+2025-10-26,Bournemouth,Nottingham Forest
+2025-10-26,Aston Villa,Manchester City
+2025-10-26,Wolverhampton Wanderers,Burnley
+2025-10-26,Everton,Tottenham
+2025-11-01,Brighton,Leeds United
+2025-11-01,Burnley,Arsenal
+2025-11-01,Crystal Palace,Brentford
+2025-11-01,Fulham,Wolverhampton Wanderers
+2025-11-01,Nottingham Forest,Manchester United
+2025-11-01,Tottenham,Chelsea
+2025-11-01,Liverpool,Aston Villa
+2025-11-02,West Ham,Newcastle United
+2025-11-02,Manchester City,Bournemouth
+2025-11-03,Sunderland,Everton
+2025-11-08,Tottenham,Manchester United
+2025-11-08,Everton,Fulham
+2025-11-08,West Ham,Burnley
+2025-11-08,Sunderland,Arsenal
+2025-11-08,Chelsea,Wolverhampton Wanderers
+2025-11-09,Aston Villa,Bournemouth
+2025-11-09,Brentford,Newcastle United
+2025-11-09,Crystal Palace,Brighton
+2025-11-09,Nottingham Forest,Leeds United
+2025-11-09,Manchester City,Liverpool
+2025-11-22,Burnley,Chelsea
+2025-11-22,Bournemouth,West Ham
+2025-11-22,Brighton,Brentford
+2025-11-22,Fulham,Sunderland
+2025-11-22,Liverpool,Nottingham Forest
+2025-11-22,Wolverhampton Wanderers,Crystal Palace
+2025-11-22,Newcastle United,Manchester City
+2025-11-23,Leeds United,Aston Villa
+2025-11-23,Arsenal,Tottenham
+2025-11-24,Manchester United,Everton
+2025-11-29,Brentford,Burnley
+2025-11-29,Manchester City,Leeds United
+2025-11-29,Sunderland,Bournemouth
+2025-11-29,Everton,Newcastle United
+2025-11-29,Tottenham,Fulham
+2025-11-30,Crystal Palace,Manchester United
+2025-11-30,Aston Villa,Wolverhampton Wanderers
+2025-11-30,Nottingham Forest,Brighton
+2025-11-30,West Ham,Liverpool
+2025-11-30,Chelsea,Arsenal
+2025-12-03,Bournemouth,Everton
+2025-12-03,Arsenal,Brentford
+2025-12-03,Brighton,Aston Villa
+2025-12-03,Burnley,Crystal Palace
+2025-12-03,Fulham,Manchester City
+2025-12-03,Leeds United,Chelsea
+2025-12-03,Liverpool,Sunderland
+2025-12-03,Manchester United,West Ham
+2025-12-03,Newcastle United,Tottenham
+2025-12-03,Wolverhampton Wanderers,Nottingham Forest
+2025-12-06,Bournemouth,Chelsea
+2025-12-06,Aston Villa,Arsenal
+2025-12-06,Brighton,West Ham
+2025-12-06,Everton,Nottingham Forest
+2025-12-06,Fulham,Crystal Palace
+2025-12-06,Leeds United,Liverpool
+2025-12-06,Manchester City,Sunderland
+2025-12-06,Newcastle United,Burnley
+2025-12-06,Tottenham,Brentford
+2025-12-06,Wolverhampton Wanderers,Manchester United
+2025-12-13,Arsenal,Wolverhampton Wanderers
+2025-12-13,Brentford,Leeds United
+2025-12-13,Burnley,Fulham
+2025-12-13,Chelsea,Everton
+2025-12-13,Crystal Palace,Manchester City
+2025-12-13,Liverpool,Brighton
+2025-12-13,Manchester United,Bournemouth
+2025-12-13,Nottingham Forest,Tottenham
+2025-12-13,Sunderland,Newcastle United
+2025-12-13,West Ham,Aston Villa
+2025-12-20,Bournemouth,Burnley
+2025-12-20,Aston Villa,Manchester United
+2025-12-20,Brighton,Sunderland
+2025-12-20,Everton,Arsenal
+2025-12-20,Fulham,Nottingham Forest
+2025-12-20,Leeds United,Crystal Palace
+2025-12-20,Manchester City,West Ham
+2025-12-20,Newcastle United,Chelsea
+2025-12-20,Tottenham,Liverpool
+2025-12-20,Wolverhampton Wanderers,Brentford
+2025-12-27,Arsenal,Brighton
+2025-12-27,Brentford,Bournemouth
+2025-12-27,Burnley,Everton
+2025-12-27,Chelsea,Aston Villa
+2025-12-27,Crystal Palace,Tottenham
+2025-12-27,Liverpool,Wolverhampton Wanderers
+2025-12-27,Manchester United,Newcastle United
+2025-12-27,Nottingham Forest,Manchester City
+2025-12-27,Sunderland,Leeds United
+2025-12-27,West Ham,Fulham
+2025-12-30,Arsenal,Aston Villa
+2025-12-30,Brentford,Tottenham
+2025-12-30,Burnley,Newcastle United
+2025-12-30,Chelsea,Bournemouth
+2025-12-30,Crystal Palace,Fulham
+2025-12-30,Liverpool,Leeds United
+2025-12-30,Manchester United,Wolverhampton Wanderers
+2025-12-30,Nottingham Forest,Everton
+2025-12-30,Sunderland,Manchester City
+2025-12-30,West Ham,Brighton
 ::contentReference[oaicite:1]{index=1}
  
