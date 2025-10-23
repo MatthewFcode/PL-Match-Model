@@ -5,7 +5,7 @@ import { PredictionSnake, PredictionCamel } from '../../models/predictions.ts'
 
 const BASE_URL = 'http://localhost:5000'
 
-router.get('/predictions', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const { body } = await superagent.get(`${BASE_URL}/predictions`) // gets the body object that from the response object that returns the status e.t.c
 

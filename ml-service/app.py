@@ -24,7 +24,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 
-@app.route("/", methods=["GET"])
+@app.route("/predictions", methods=["GET"])
 def enchance_predictions():
     
     csv_text = predictions_df.to_csv(index=False)
