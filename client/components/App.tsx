@@ -1,7 +1,11 @@
+import Map from './Map.tsx'
+
 function App() {
   return (
     <>
-      <div className="app"></div>
+      <div className="app">
+        <Map />
+      </div>
     </>
   )
 }
