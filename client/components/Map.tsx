@@ -1,24 +1,30 @@
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
+// import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api'
+import { useEffect, useRef } from 'react'
+import tt from '@tomtom-international/web-sdk-maps'
 
 const containerStyle = { width: '100%', height: '1000px' }
-const center = { lat: -36.848461, lng: 174.763336 }
+const center = { lng: -2.0, lat: 54.0 }
 
 function Map() {
-  const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
-  })
+  const mapRef = useRef<HTMLDivElement | null>(null)
+  const apiKey = import.meta.env.VITE_TOMTOM_API_KEY
 
-  if (!isLoaded) return <div>Loading Map...</div>
-  console.log(import.meta.env.VITE_GOOGLE_MAPS_API_KEY)
+  useEffect(() => {
+    if (!mapRef.current) return
 
-  return (
-    <div className="map-container">
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={12}>
-        {/* Example marker */}
-        <Marker position={center} />
-      </GoogleMap>
-    </div>
-  )
+    const map = tt.map({
+      key: apiKey,
+      container: mapRef.current,
+      center: center,
+      zoom: 6,
+    })
+
+    new tt.Marker().setLngLat(center).addTo(map)
+
+    return () => map.remove()
+  }, [apiKey])
+
+  return <div ref={mapRef} style={containerStyle}></div>
 }
 
 export default Map
