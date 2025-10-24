@@ -4,5 +4,5 @@
  */
 export async function seed(knex) {
   // Deletes ALL existing entries
-  await knex('teams').truncate()
+  await knex('teams').delete()
 }

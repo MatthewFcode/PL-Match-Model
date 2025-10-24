@@ -4,7 +4,7 @@
  */
 export async function up(knex) {
   return knex.schema.createTable('teams', (table) => {
-    table.string('id').primary().increments()
+    table.increments('id').primary()
     table.string('team_name')
     table.string('team_logo')
   })
