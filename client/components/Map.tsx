@@ -7,7 +7,7 @@ import '@tomtom-international/web-sdk-maps/dist/maps.css'
 const containerStyle = { width: '100%', height: '1000px' }
 const center = { lng: -2.0, lat: 54.0 }
 
-function Map() {
+function Map({ onTeamClick }: { onTeamClick: (name: string) => void }) {
   const mapRef = useRef<HTMLDivElement | null>(null)
   const apiKey = import.meta.env.VITE_TOMTOM_API_KEY
 
@@ -51,7 +51,7 @@ function Map() {
         .addTo(map)
 
       el.addEventListener('click', () => {
-        console.log(team.team_name)
+        onTeamClick(team.team_name)
       })
 
       createdMarkers.push(marker)

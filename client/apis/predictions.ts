@@ -17,7 +17,7 @@ export async function getPredicitonsByName(
   name: string,
 ): Promise<PredictionCamel[] | undefined> {
   try {
-    const result = await request.get(`${BASE_URL}/predictions/${name}`)
+    const result = await request.get(`${BASE_URL}/${name}`)
     console.log(result)
     return result.body
   } catch (err) {

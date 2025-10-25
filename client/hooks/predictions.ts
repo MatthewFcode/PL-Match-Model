@@ -11,6 +11,7 @@ export function useTeamPredictions(name: string) {
   const query = useQuery({
     queryKey: ['team-predictions'],
     queryFn: () => getPredicitonsByName(name),
+    enabled: !!name,
   })
 
   return query

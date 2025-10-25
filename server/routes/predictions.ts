@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
   try {
     const { body } = await superagent.get(`${BASE_URL}/predictions`) // gets the body object that from the response object that returns the status e.t.c
 
-    const predictions: PredictionCamel = body.map(
+    const predictions: PredictionCamel[] = body.map(
       ({
         away_team,
         date,
@@ -35,8 +35,25 @@ router.get('/', async (req, res) => {
 router.get('/:name', async (req, res) => {
   try {
     const { name } = req.params
-    const result = await superagent.get(`${BASE_URL}/predictions/${name}`)
-    res.status(200).json(result.body)
+    const { body } = await superagent.get(`${BASE_URL}/predictions/${name}`)
+
+    const predictions: PredictionCamel = body.map(
+      ({
+        away_team,
+        date,
+        explanation,
+        home_team,
+        winning_team,
+      }: PredictionSnake) => ({
+        awayTeam: away_team,
+        date,
+        explanation,
+        homeTeam: home_team,
+        winningTeam: winning_team,
+      }),
+    )
+
+    res.status(200).json(predictions)
   } catch (err) {
     console.log(err)
     res.status(500).json('Something went wrong')
