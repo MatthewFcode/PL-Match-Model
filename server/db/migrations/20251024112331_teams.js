@@ -7,6 +7,8 @@ export async function up(knex) {
     table.increments('id').primary()
     table.string('team_name')
     table.string('team_logo')
+    table.float('stadium_lat')
+    table.float('stadium_lng')
   })
 }
 
