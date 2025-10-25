@@ -32,4 +32,15 @@ router.get('/', async (req, res) => {
   }
 })
 
+router.get('/:name', async (req, res) => {
+  try {
+    const { name } = req.params
+    const result = await superagent.get(`${BASE_URL}/predictions/${name}`)
+    res.status(200).json(result.body)
+  } catch (err) {
+    console.log(err)
+    res.status(500).json('Something went wrong')
+  }
+})
+
 export default router

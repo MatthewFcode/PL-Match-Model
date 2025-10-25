@@ -20,12 +20,10 @@ def get_predictions():
     data = predictions_df.to_dict(orient="records")
     return jsonify(data)
 
-if __name__ == "__main__": 
-    app.run(debug=True)
 
 
 @app.route("/predictions", methods=["GET"])
-def enchance_predictions():
+def enhance_predictions():
     
     csv_text = predictions_df.to_csv(index=False)
     prompt = f"""
@@ -78,6 +76,67 @@ def enchance_predictions():
             "details": str(e),
             "raw_response": response_text
         }), 500
+    
+@app.route("/predictions/<team_name>", methods=["GET"])
+def enhance_team_predictions(team_name):
+    """Send next 5 predictions for one team to Gemini."""
+    filtered = predictions_df[
+        (predictions_df["home_team"].str.lower() == team_name.lower()) |
+        (predictions_df["away_team"].str.lower() == team_name.lower())
+    ]
+
+    if filtered.empty:
+        return jsonify({"error": f"No predictions found for team '{team_name}'"}), 404
+
+    filtered["date"] = pd.to_datetime(filtered["date"])
+    filtered = filtered.sort_values(by="date").head(5)
+
+    csv_text = filtered.to_csv(index=False)
+
+    prompt = f"""
+    You are an expert Premier League data analyst.
+    Review these predicted match results for accuracy and relevance:
+    {csv_text}
+
+    Instructions:
+    - Check if any predictions seem unrealistic based on 2025 Premier League trends.
+    - Suggest tweaks or corrections where necessary.
+    - Returns all results even the ones that don't need changing and explains why that result is likely
+    - It is currently 2025/26 so make sure your reasoning is up to date with the current trends e.t.c 
+    - Return your response in structured JSON with fields:
+      date, home_team, away_team, winning_team, explanation
+
+    Output requirements:
+    - Return a **JSON array** (not text) where each match has its own object.
+    - Use this exact JSON structure for each item:
+      {{
+          "date": "",
+          "home_team": "",
+          "away_team": "",
+          "winning_team": "",
+          "explanation": ""
+      }}
+    - winning_team needs to be the name of the team that wins not home win or away win
+    - Ensure valid JSON syntax. Do not include explanations or text outside the array.
+    """
+
+    response = model.generate_content(prompt)
+    response_text = response.text.strip()
+
+    match = re.search(r'```(?:json)?\s*(\[.*\])\s*```', response_text, re.DOTALL)
+    if match:
+        response_text = match.group(1)
+
+    try:
+        return jsonify(json.loads(response_text))
+    except Exception as e:
+        return jsonify({"error": str(e), "raw": response_text}), 500
+
+
+if __name__ == "__main__": 
+    app.run(debug=True)
+
+
 
     #return jsonify({"gemini_review": response.text})
 # @app.route("/gemini")

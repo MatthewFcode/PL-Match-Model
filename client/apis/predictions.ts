@@ -12,3 +12,15 @@ export async function getPredictions(): Promise<PredictionCamel[] | undefined> {
     console.log(err)
   }
 }
+
+export async function getPredicitonsByName(
+  name: string,
+): Promise<PredictionCamel[] | undefined> {
+  try {
+    const result = await request.get(`${BASE_URL}/predictions/${name}`)
+    console.log(result)
+    return result.body
+  } catch (err) {
+    console.log(err)
+  }
+}

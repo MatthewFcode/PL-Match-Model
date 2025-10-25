@@ -197,7 +197,7 @@ export async function seed(knex) {
     {
       team_name: 'Brighton',
       team_logo:
-        'https://upload.wikimedia.org/wikipedia/en/f/f6/Brighton_%26_Hove_Albion_logo.svg',
+        'https://w1.pngwing.com/pngs/331/651/png-transparent-premier-league-logo-brighton-organization-brighton-hove-albion-fc-blue-text-line-area-thumbnail.png',
       stadium_lat: 50.861822,
       stadium_lng: -0.083278,
     },
