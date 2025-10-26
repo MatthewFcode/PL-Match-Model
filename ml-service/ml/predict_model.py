@@ -9,9 +9,9 @@ from datetime import datetime
 model = joblib.load("models/pl_combined_model.joblib")
 print("✅ Model loaded successfully.")
 
-understat = pd.read_csv("data/understat_team_data.csv")
-football = pd.read_csv("data/football_data_results.csv")
-fixtures = pd.read_csv("data/pl_fixtures.csv")
+understat = pd.read_csv("../data/understat_team_data.csv")
+football = pd.read_csv("../data/football_data_results.csv")
+fixtures = pd.read_csv("../data/pl_fixtures.csv")
 
 # Standardize column names
 understat.rename(columns={
@@ -120,6 +120,6 @@ for _, fixture in fixtures.iterrows():
 # 5️⃣ Save and display predictions
 # ==========================================
 pred_df = pd.DataFrame(predictions)
-pred_df.to_csv("predictions/pl_upcoming_predictions.csv", index=False)
+pred_df.to_csv("../predictions/pl_upcoming_predictions.csv", index=False)
 print("\n✅ Predictions saved to predictions/pl_upcoming_predictions.csv\n")
 print(pred_df)

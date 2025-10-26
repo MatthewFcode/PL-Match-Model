@@ -58,15 +58,28 @@ body,
   }
 }
 
-.prediction-content h2 {
-  color: #38003c;
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  border-bottom: 4px solid #00ff87;
-  padding-bottom: 1rem;
-  animation: fadeInDown 0.5s ease-out 0.2s both;
+// .prediction-content h2 {
+//   color: #38003c;
+//   font-size: 2rem;
+//   margin-bottom: 1.5rem;
+//   font-weight: 700;
+//   text-align: center;
+//   border-bottom: 4px solid #00ff87;
+//   padding-bottom: 1rem;
+//   animation: fadeInDown 0.5s ease-out 0.2s both;
+// }
+.prediction-content {
+  position: relative; /* add this */
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  padding: 2.5rem;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(56, 0, 255, 0.3);
+  border: 3px solid #00ff87;
+  animation: slideUp 0.4s ease-out;
 }
 
 @keyframes fadeInDown {
@@ -332,25 +345,26 @@ body,
   position: absolute;
   bottom: 60px;
   left: 20px;
-  width: 70px;
-  height: 70px;
+  width: 140px;
+  height: 140px;
   z-index: 2000;
   filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
 }
 
+.overlay-header {
+  text-align: center
+}
 
-// back button on the overlay
+
 .overlay-back-button {
-  position: fixed;
-  top: 600px;
-  left: 20px;
-  width: 45px;
-  height: 45px;
+  position: absolute; /* stays absolute */
+  top: 15px;          /* distance from top of white box */
+  left: 15px;         /* distance from left of white box */
+  width: 36px;        /* adjust size if needed */
+  height: 36px;
   cursor: pointer;
-  z-index: 2001; /* Higher than overlay z-index */
-  filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
+  z-index: 10;        /* make sure it’s above content */
   transition: transform 0.2s ease;
-  animation: fadeIn 0.3s ease-in;
 }
 
 .overlay-back-button:hover {

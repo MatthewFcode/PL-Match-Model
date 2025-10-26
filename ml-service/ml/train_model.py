@@ -16,8 +16,8 @@ warnings.filterwarnings("ignore")
 # ==========================================
 # 1️⃣ Load Data
 # ==========================================
-understat = pd.read_csv("data/understat_team_data.csv")
-football = pd.read_csv("data/football_data_results.csv")
+understat = pd.read_csv("../data/understat_team_data.csv")
+football = pd.read_csv("../data/football_data_results.csv")
 
 # Standardize column names
 understat.rename(columns={

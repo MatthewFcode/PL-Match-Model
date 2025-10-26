@@ -80,7 +80,7 @@ function Map({ onTeamClick }: { onTeamClick: (name: string) => void }) {
           <img src="/images/back.png" alt="Back" className="back-button" />
         </Link>
         <img
-          src="/images/pl-logo.png"
+          src="/images/match-model.png"
           alt="pl- prediction-logo"
           className="pl-logo"
         />

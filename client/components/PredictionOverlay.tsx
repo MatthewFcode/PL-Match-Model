@@ -42,14 +42,16 @@ const PredictionOverlay = ({ teamName, onClose }: PredictionOverlayProps) => {
 
   return (
     <div className="prediction-overlay">
-      <img
-        src="/images/back.png"
-        alt="Back"
-        className="overlay-back-button"
-        onClick={onClose}
-      />
       <div className="prediction-content">
-        <h2>{teamName} Upcoming Match Predictions ⚽</h2>
+        <img
+          src="/images/back.png"
+          alt="Back"
+          className="overlay-back-button"
+          onClick={onClose}
+        />
+        <h2 className="overlay-header">
+          {teamName} Upcoming Match Predictions ⚽
+        </h2>
         {predictions?.map((match) => {
           const homeTeamLogo = getTeamLogo(match.homeTeam)
           const awayTeamLogo = getTeamLogo(match.awayTeam)
