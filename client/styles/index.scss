@@ -11,20 +11,6 @@ body,
 }
 /* Premier League themed overlay styles */
 
-.prediction-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(4, 0, 41, 0.95) 0%, rgba(14, 5, 56, 0.95) 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  animation: fadeIn 0.3s ease-in;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -34,13 +20,30 @@ body,
   }
 }
 
+
+.prediction-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(4, 0, 41, 0.85) 0%, rgba(14, 5, 56, 0.85) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in;
+  padding: 60px 80px; /* More padding to show more map */
+}
+
 .prediction-content {
+  position: relative;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
   padding: 2.5rem;
   border-radius: 16px;
-  max-width: 700px;
-  width: 90%;
-  max-height: 85vh;
+  max-width: 600px; /* Reduced from 700px */
+  width: 100%;
+  max-height: 100%; /* Respects the padding */
   overflow-y: auto;
   box-shadow: 0 20px 60px rgba(56, 0, 255, 0.3);
   border: 3px solid #00ff87;
@@ -57,17 +60,6 @@ body,
     opacity: 1;
   }
 }
-
-// .prediction-content h2 {
-//   color: #38003c;
-//   font-size: 2rem;
-//   margin-bottom: 1.5rem;
-//   font-weight: 700;
-//   text-align: center;
-//   border-bottom: 4px solid #00ff87;
-//   padding-bottom: 1rem;
-//   animation: fadeInDown 0.5s ease-out 0.2s both;
-// }
 .prediction-content {
   position: relative; /* add this */
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
@@ -325,17 +317,7 @@ body,
 }
 
 // back button and the premier league logo display on the map 
-.back-button {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 45px;
-  height: 45px;
-  cursor: pointer;
-  z-index: 2000;
-  filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
-  transition: transform 0.2s ease;
-}
+
 
 .back-button:hover {
   transform: scale(1.1);
@@ -354,18 +336,33 @@ body,
 .overlay-header {
   text-align: center
 }
-
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 2000;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
+  transition: transform 0.2s ease;
+  image-rendering: -webkit-optimize-contrast; /* For Safari */
+  image-rendering: crisp-edges; /* For other browsers */
+}
 
 .overlay-back-button {
-  position: absolute; /* stays absolute */
-  top: 15px;          /* distance from top of white box */
-  left: 15px;         /* distance from left of white box */
-  width: 36px;        /* adjust size if needed */
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 36px;
   height: 36px;
   cursor: pointer;
-  z-index: 10;        /* make sure it’s above content */
+  z-index: 10;
   transition: transform 0.2s ease;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
+
 
 .overlay-back-button:hover {
   transform: scale(1.1);
