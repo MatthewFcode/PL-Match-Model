@@ -1,61 +1,3 @@
-// import { useTeamPredictions } from '../hooks/predictions.ts'
-
-// interface PredictionOverlayProps {
-//   teamName: string
-//   onClose: () => void
-// }
-
-// const PredictionOverlay = ({ teamName, onClose }: PredictionOverlayProps) => {
-//   const { data, isLoading, isError } = useTeamPredictions(teamName)
-
-//   if (isLoading) {
-//     return (
-//       <div className="loading-overlay">
-//         <div className="loading-spinner"></div>
-//         <div className="loading-text">Loading predictions...</div>
-//       </div>
-//     )
-//   }
-
-//   if (isError) {
-//     return (
-//       <div className="error-overlay">
-//         <div className="error-content">
-//           <p>Error loading predictions</p>
-//           <button className="close-button" onClick={onClose}>
-//             Close
-//           </button>
-//         </div>
-//       </div>
-//     )
-//   }
-
-//   return (
-//     <div className="prediction-overlay">
-//       <div className="prediction-content">
-//         <h2>{teamName} Upcoming Match Predictions ⚽</h2>
-//         {data?.map((match) => (
-//           <div key={match.date} className="match-card">
-//             <p className="match-date">{match.date}</p>
-//             <p className="match-teams">
-//               {match.homeTeam} vs {match.awayTeam}
-//             </p>
-//             <p className="match-prediction">
-//               <strong>Prediction:</strong> <span>{match.winningTeam}</span>
-//             </p>
-//             <p className="match-explanation">{match.explanation}</p>
-//           </div>
-//         ))}
-//         <button className="close-button" onClick={onClose}>
-//           Close
-//         </button>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default PredictionOverlay
-
 import { useTeamPredictions } from '../hooks/predictions.ts'
 import { useTeams } from '../hooks/teams.ts'
 
@@ -100,6 +42,12 @@ const PredictionOverlay = ({ teamName, onClose }: PredictionOverlayProps) => {
 
   return (
     <div className="prediction-overlay">
+      <img
+        src="/images/back.png"
+        alt="Back"
+        className="overlay-back-button"
+        onClick={onClose}
+      />
       <div className="prediction-content">
         <h2>{teamName} Upcoming Match Predictions ⚽</h2>
         {predictions?.map((match) => {
@@ -148,9 +96,9 @@ const PredictionOverlay = ({ teamName, onClose }: PredictionOverlayProps) => {
             </div>
           )
         })}
-        <button className="close-button" onClick={onClose}>
+        {/* <button className="close-button" onClick={onClose}>
           Close
-        </button>
+        </button> */}
       </div>
     </div>
   )

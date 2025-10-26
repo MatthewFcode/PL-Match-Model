@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react'
 import tt from '@tomtom-international/web-sdk-maps'
 import { useTeams } from '../hooks/teams.ts'
+import { Link } from 'react-router'
 import '@tomtom-international/web-sdk-maps/dist/maps.css'
 
 const containerStyle = { width: '100%', height: '1000px' }
@@ -71,7 +72,21 @@ function Map({ onTeamClick }: { onTeamClick: (name: string) => void }) {
     return <div>Error loading teams</div>
   }
 
-  return <div ref={mapRef} style={containerStyle}></div>
+  return (
+    <div ref={mapRef} style={containerStyle}>
+      <div ref={mapRef} style={containerStyle}>
+        <Link to="/">
+          {' '}
+          <img src="/images/back.png" alt="Back" className="back-button" />
+        </Link>
+        <img
+          src="/images/pl-logo.png"
+          alt="pl- prediction-logo"
+          className="pl-logo"
+        />
+      </div>
+    </div>
+  )
 }
 
 export default Map

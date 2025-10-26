@@ -310,3 +310,49 @@ body,
 .prediction-content::-webkit-scrollbar-thumb:hover {
   background: #00d966;
 }
+
+// back button and the premier league logo display on the map 
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 2000;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
+  transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+  transform: scale(1.1);
+}
+
+.pl-logo {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  z-index: 2000;
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.4));
+}
+
+
+// back button on the overlay
+.overlay-back-button {
+  position: fixed;
+  top: 600px;
+  left: 20px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 2001; /* Higher than overlay z-index */
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.3));
+  transition: transform 0.2s ease;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.overlay-back-button:hover {
+  transform: scale(1.1);
+}
