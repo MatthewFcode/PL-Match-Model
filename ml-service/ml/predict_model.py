@@ -6,14 +6,15 @@ from datetime import datetime
 # ==========================================
 # 1️⃣ Load model and data
 # ==========================================
-model = joblib.load("models/pl_combined_model.joblib")
+model = joblib.load("models/pl_combined_model.joblib") # used to load the seriliazed sckcit learn model and read it
 print("✅ Model loaded successfully.")
 
-understat = pd.read_csv("../data/understat_team_data.csv")
+# reads 3 csv files and turns them into seperate data frames
+understat = pd.read_csv("../data/understat_team_data.csv") 
 football = pd.read_csv("../data/football_data_results.csv")
 fixtures = pd.read_csv("../data/pl_fixtures.csv")
 
-# Standardize column names
+# Standardize column names || renames the understat columns into the consitent naming for the script inPlace=True modifies the dataframe directly 
 understat.rename(columns={
     "team": "Team",
     "opponent": "Opponent",
@@ -24,6 +25,7 @@ understat.rename(columns={
     "xG_against": "xGA",
 }, inplace=True)
 
+# renames the football past results column names for consistency however it doesnt do anything because the olumns stay the same
 football.rename(columns={
     "Date": "Date",
     "HomeTeam": "HomeTeam",
@@ -33,17 +35,16 @@ football.rename(columns={
     "B365A": "B365A"
 }, inplace=True)
 
+# convert the date columns into date time 64 dtype || errors="coerce" turns the parsing failures into NaT values basically takin gnueriacl dates and making them word dates
 understat["Date"] = pd.to_datetime(understat["Date"], errors="coerce")
 football["Date"] = pd.to_datetime(football["Date"], dayfirst=True, errors="coerce")
 fixtures["date"] = pd.to_datetime(fixtures["date"], errors="coerce")
 
-# ==========================================
-# 2️⃣ Compute recent rolling averages
-# ==========================================
+# compute recent rolling averages | compute 5 rolling match averages for each team and for each stat column
 stats_cols = ["xG", "xGA", "GF", "GA"]
 for col in stats_cols:
     understat[f"{col}_rolling5"] = (
-        understat.groupby("Team")[col].rolling(5, min_periods=1).mean().reset_index(0, drop=True)
+        understat.groupby("Team")[col].rolling(5, min_periods=1).mean().reset_index(0, drop=True) # computes the rolling mean within each team group
     )
 
 # ==========================================
