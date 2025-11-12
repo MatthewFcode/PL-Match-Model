@@ -4,8 +4,10 @@ import google.generativeai as genai
 import os
 import json 
 import re
-
+from dotenv import load_dotenv
 app = Flask(__name__)
+
+load_dotenv()
 
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("models/gemini-flash-latest")
