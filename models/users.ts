@@ -11,3 +11,8 @@ export interface UserCamel {
   favouriteTeam: string
   profilePhoto: string
 }
+
+export interface AddUserFunction {
+  formData: FormData
+  token: string
+}
