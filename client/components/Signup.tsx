@@ -1,24 +1,36 @@
 import { IfAuthenticated, IfNotAuthenticated } from './Auth0.tsx'
 import { useAuth0 } from '@auth0/auth0-react'
 import { useState, useEffect } from 'react'
+import { useGetUserByAuth0Id, usePostNewuser } from '../hooks/users.ts'
 
 function Signup() {
   const [needsRegistration, setNeedsRegistration] = useState(false)
+
   const { logout, loginWithRedirect, isAuthenticated, getAccessTokenSilently } =
     useAuth0()
+  // useEffect making call to the backend and checking if route returns need registering and then setting the needs register state to true so the componentn shows the form
+  useEffect(() => {
+    async function checkRegistration() {
+      try {
+        const token = await getAccessTokenSilently()
 
-  useEffect =
-    (() => {
-      // async function getting yourself as a user
-      if (!isAuthenticated) {
-        return
+        const result = await fetch('/api/v1/users', {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        })
+
+        const data = await result.json()
+
+        if (data.needsRegistration === true) {
+          setNeedsRegistration(true)
+        }
+      } catch (err) {
+        console.log('Profile check failed', err)
       }
-      const token = await getAccessTokenSilently()
-      // make the api call
-      // const data = await res.json()
-      // if the data returns needs registration then set needs registration to true
-    },
-    [isAuthenticated])
+    }
+    checkRegistration()
+  }, [isAuthenticated])
 
   const handleLogout = () => {
     logout({ logoutParams: { returnTo: window.location.origin } })
