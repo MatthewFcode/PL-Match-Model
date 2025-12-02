@@ -34,3 +34,12 @@ export function useUserMutation<TData = unknown, TVariables = unknown>(
 
   return mutation
 }
+
+export function usePostNewUser() {
+  // wrapper function to get the auth0Id
+  return useUserMutation(API.postNewUser)
+}
+
+export function useDeleteUser() {
+  return useUserMutation(API.deleteUser)
+}
