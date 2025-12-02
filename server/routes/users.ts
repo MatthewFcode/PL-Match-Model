@@ -11,20 +11,22 @@ const router = Router()
 const upload = multer({ dest: 'tmp/' })
 
 router.get('/', checkJwt, async (req: JwtRequest, res) => {
-  try {
-    const auth0Id = req.auth?.sub
-    const yourself = await db.getUserByAuth0Id(auth0Id as string)
-    if (!yourself) {
-      res.json({ needsToRegister: true })
-    }
+  console.log('REQ.AUTH:', req.auth) // log the token info
+  res.json({ test: 'hello' })
+  // try {
+  //   const auth0Id = req.auth?.sub
+  //   const yourself = await db.getUserByAuth0Id(auth0Id as string)
+  //   if (!yourself) {
+  //     return res.json({ needsRegistration: true })
+  //   }
 
-    const result = yourself ? camelcaseKeys(yourself, { deep: true }) : [] //switch from snake case to camel case in the route
-    console.log(result)
-    res.status(200).json(result)
-  } catch (err) {
-    res.status(500).json('That was an internal server error')
-    console.log(err)
-  }
+  //   const result = yourself ? camelcaseKeys(yourself, { deep: true }) : [] //switch from snake case to camel case in the route
+  //   console.log(result)
+  //   res.status(200).json(result)
+  // } catch (err) {
+  //   res.status(500).json('That was an internal server error')
+  //   console.log(err)
+  // }
 })
 
 //Post route that takes multi part form data in from the req.body and then takes out the file from the multer tmp path and sends it to coudinary and then that img url back into the convert and post it to the db
